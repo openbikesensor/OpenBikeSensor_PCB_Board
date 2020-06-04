@@ -878,7 +878,7 @@ $Sheet
 S 7800 3950 2450 650 
 U 5EDE387A
 F0 "PowerPart" 118
-F1 "PowerPart.sch" 118
+F1 "OpenBikeSensor_PowerPart.sch" 118
 $EndSheet
 Wire Notes Line
 	5350 3500 5350 1800
