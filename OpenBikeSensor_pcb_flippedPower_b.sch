@@ -161,7 +161,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 6850 3350 6850
 Wire Wire Line
-	4950 6250 4750 6250
+	4950 6250 4900 6250
 Wire Wire Line
 	4750 7150 4900 7150
 Wire Wire Line
@@ -570,7 +570,7 @@ U 1 1 5ED7CAE9
 P 1250 2300
 F 0 "C1" H 1000 2350 50  0000 L CNN
 F 1 "100n" H 950 2250 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 1250 2300 50  0001 C CNN
+F 2 "Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 1250 2300 50  0001 C CNN
 F 3 "~" H 1250 2300 50  0001 C CNN
 F 4 "123" H 1250 2300 50  0001 C CNN "Reichelt"
 F 5 "123" H 1250 2300 50  0001 C CNN "Aliexpress"
@@ -888,4 +888,40 @@ Wire Notes Line
 	5350 3500 5350 1800
 Wire Notes Line
 	5350 1800 7650 1800
+Wire Wire Line
+	4900 6300 4900 6250
+Connection ~ 4900 6250
+Wire Wire Line
+	4900 6250 4750 6250
+Wire Wire Line
+	4900 6500 4900 6550
+Connection ~ 4900 6550
+Wire Wire Line
+	4900 6500 5050 6500
+Wire Wire Line
+	5050 6300 4900 6300
+$Comp
+L device:CP_Small C2
+U 1 1 5EE2E44B
+P 5050 6400
+F 0 "C2" H 5138 6446 50  0000 L CNN
+F 1 "22u" H 5138 6355 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 5050 6400 50  0001 C CNN
+F 3 "~" H 5050 6400 50  0001 C CNN
+	1    5050 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:CP_Small C3
+U 1 1 5EE2EDDD
+P 4900 6400
+F 0 "C3" H 4650 6450 50  0000 L CNN
+F 1 "22u" H 4650 6350 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 4900 6400 50  0001 C CNN
+F 3 "~" H 4900 6400 50  0001 C CNN
+	1    4900 6400
+	1    0    0    -1  
+$EndComp
+Connection ~ 4900 6300
+Connection ~ 4900 6500
 $EndSCHEMATC
