@@ -18,4 +18,5 @@ Es gibt 2 Gerberfiles. Das mit dem Zusatz JLC besitzt den Marker für JLC damit 
 Link zu den 3D Modellen für das pcb: https://github.com/Halbelunge/OpenBikeSensor_pcb_ext3Dmodels.git
 
 Link zum Gehäuse: https://github.com/Halbelunge/OpenBikeSensor_pcb_case.git
+
 Display Gehäuse von hier übernehmen: https://github.com/Friends-of-OpenBikeSensor/OpenBikeSensor3dPrintableCase
