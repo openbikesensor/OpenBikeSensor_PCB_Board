@@ -12,6 +12,9 @@ Weitere Beschreibung folgt demnächst.
 ## Gerber
 Es gibt 2 Gerberfiles. Das mit dem Zusatz JLC besitzt den Marker für JLC damit diese ihren Produktionscode unter dem SEPIC Wandler platzieren. Dies ist für die Funktion des Boards natürlich nicht wichtig. Option muss bei JLC seit neustem in der Bestellung mit angegeben werden.
 
+
+## 3D Modelle für Kicad und Gehäuse
+
 Link zu den 3D Modellen für das pcb: https://github.com/Halbelunge/OpenBikeSensor_pcb_ext3Dmodels.git
 
 Link zum Gehäuse: https://github.com/Halbelunge/OpenBikeSensor_pcb_case.git
