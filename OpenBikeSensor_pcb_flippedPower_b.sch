@@ -22,6 +22,14 @@ F 0 "SOCKET1" H 1900 7254 45  0000 C CNN
 F 1 "XUNPU-SD-101_C266601" H 1900 7170 45  0000 C CNN
 F 2 "SD_CARD:SD_CARD-XUNPU-SD-101_C266601" H 1930 6550 20  0001 C CNN
 F 3 "" H 1900 6400 50  0001 C CNN
+F 4 "x" H 1900 6400 50  0001 C CNN "Optional"
+F 5 "https://lcsc.com/product-detail/Card-Sockets-Connectors_XUNPU-SD-101_C266601.html" H 1900 6400 50  0001 C CNN "Other Source"
+F 6 "SMD SD Card Slot" H 1900 6400 50  0001 C CNN "Bemerkung"
+F 7 "--" H 1900 6400 50  0001 C CNN "Conrad"
+F 8 "---" H 1900 6400 50  0001 C CNN "Reichelt"
+F 9 "--" H 1900 6400 50  0001 C CNN "Segor.de"
+F 10 "--" H 1900 6400 50  0001 C CNN "ebay"
+F 11 "" H 1900 6400 50  0001 C CNN "Bem"
 	1    1900 6400
 	1    0    0    -1  
 $EndComp
@@ -182,6 +190,13 @@ F 0 "U3" H 4150 5515 50  0000 C CNN
 F 1 "XUNPU-TF-115-C266620" H 4150 5424 50  0000 C CNN
 F 2 "SD_CARD:XUNPU-TF-115-C266620" H 4150 5500 50  0001 C CNN
 F 3 "" H 4150 5500 50  0001 C CNN
+F 4 "x" H 4150 5500 50  0001 C CNN "Optional"
+F 5 "https://lcsc.com/product-detail/Card-Sockets-Connectors_XUNPU-TF-115_C266620.html" H 4150 5500 50  0001 C CNN "Other Source"
+F 6 "SMD Micro SD Card Slot" H 4150 5500 50  0001 C CNN "Bemerkung"
+F 7 "--" H 4150 5500 50  0001 C CNN "Conrad"
+F 8 "--" H 4150 5500 50  0001 C CNN "Reichelt"
+F 9 "--" H 4150 5500 50  0001 C CNN "Segor.de"
+F 10 "--" H 4150 5500 50  0001 C CNN "ebay"
 	1    4150 5500
 	1    0    0    -1  
 $EndComp
@@ -195,6 +210,10 @@ F 0 "J2" H 5750 850 50  0000 C CNN
 F 1 "Conn_01x04_Female" H 4650 850 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x05_Pitch2.54mm" H 5800 1200 50  0001 C CNN
 F 3 "~" H 5800 1200 50  0001 C CNN
+F 4 "Neo-6M Module (Connector via Conrad/reichelt/segor)" H 5800 1200 50  0001 C CNN "Bemerkung"
+F 5 "https://www.conrad.de/de/p/tru-components-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-34-tc-8559760-1-2139940.html" H 5800 1200 50  0001 C CNN "Conrad"
+F 6 "https://www.reichelt.de/36pol-stiftleiste-gewinkelt-rm-2-54-sl-1x36w-2-54-p19505.html?&trstct=pos_1&nbc=1" H 5800 1200 50  0001 C CNN "Reichelt"
+F 7 "https://www.segor.de/#Q=SL1x40-90G&M=1" H 5800 1200 50  0001 C CNN "Segor.de"
 	1    5800 1200
 	-1   0    0    1   
 $EndComp
@@ -244,6 +263,11 @@ F 0 "U1" H 3150 1667 50  0000 C CNN
 F 1 "ESP32-DEVKIT-32C" H 3150 1576 50  0000 C CNN
 F 2 "ESP32-DEVKITC-32D:MODULE_ESP32-DEVKITC-32C_SMD" H 3100 1600 50  0001 C CNN
 F 3 "" H 3100 1600 50  0001 C CNN
+F 4 "2x https://www.conrad.de/de/p/fischer-elektronik-buchsenleiste-standard-anzahl-reihen-1-polzahl-je-reihe-20-bl-lp-5-smd-20-z-1-409080.html" H 3100 1600 50  0001 C CNN "Conrad"
+F 5 "https://de.aliexpress.com/item/32889969250.html --- https://de.aliexpress.com/item/32959541446.html" H 3100 1600 50  0001 C CNN "Aliexpress"
+F 6 "2x  https://www.reichelt.de/buchsenleisten-2-54-mm-1x16-gerade-mpe-094-1-016-p119919.html   und Beinchen wechselseitig umbiegen. Nur im Notfall!" H 3100 1600 50  0001 C CNN "Reichelt"
+F 7 "https://www.segor.de/#Q=FL1x20-180G(h%253D5%252C7mm)&M=1   und Beinchen wechselseitig umbiegen. Nur im Notfall!" H 3100 1600 50  0001 C CNN "Segor.de"
+F 8 "https://www.ebay.de/itm/10-pcs-SMD-Buchsenleiste-1x-16-polig-RM-2-54mm-NEU-BP/231930033721?hash=item36001b7639:g:5Q4AAOSwofxUgJJ7" H 3100 1600 50  0001 C CNN "ebay"
 	1    3100 1600
 	1    0    0    -1  
 $EndComp
@@ -271,6 +295,11 @@ F 0 "J3" H 5958 2681 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 5958 2590 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 5850 2400 50  0001 C CNN
 F 3 "~" H 5850 2400 50  0001 C CNN
+F 4 "Ultraschall Connector 1 (Connector via Conrad/reichelt/segor)" H 5850 2400 50  0001 C CNN "Bemerkung"
+F 5 "https://www.conrad.de/de/p/bkl-electronic-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-40-10120513-1-393494.html" H 5850 2400 50  0001 C CNN "Conrad"
+F 6 "https://de.aliexpress.com/item/32218396409.html" H 5850 2400 50  0001 C CNN "Aliexpress"
+F 7 "https://www.segor.de/#Q=SL1x40-180G%252F13%252C8&M=1" H 5850 2400 50  0001 C CNN "Segor.de"
+F 8 "https://www.reichelt.de/40pol-stiftleiste-gerade-rm-2-54-sl-1x40g-2-54-p19506.html" H 5850 2400 50  0001 C CNN "Reichelt"
 	1    5850 2400
 	1    0    0    -1  
 $EndComp
@@ -282,6 +311,11 @@ F 0 "J4" H 5958 3231 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 5958 3140 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 5850 2950 50  0001 C CNN
 F 3 "~" H 5850 2950 50  0001 C CNN
+F 4 "Ultraschall Connector 2 (Connector via Conrad/reichelt/segor)" H 5850 2950 50  0001 C CNN "Bemerkung"
+F 5 "https://de.aliexpress.com/item/32218396409.html" H 5850 2950 50  0001 C CNN "Aliexpress"
+F 6 "https://www.segor.de/#Q=SL1x40-180G%252F13%252C8&M=1" H 5850 2950 50  0001 C CNN "Segor.de"
+F 7 "https://www.reichelt.de/40pol-stiftleiste-gerade-rm-2-54-sl-1x40g-2-54-p19506.html" H 5850 2950 50  0001 C CNN "Reichelt"
+F 8 "https://www.conrad.de/de/p/bkl-electronic-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-40-10120513-1-393494.html" H 5850 2950 50  0001 C CNN "Conrad"
 	1    5850 2950
 	1    0    0    -1  
 $EndComp
@@ -377,6 +411,10 @@ F 0 "J5" H 8308 3431 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 8308 3340 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 8200 3050 50  0001 C CNN
 F 3 "~" H 8200 3050 50  0001 C CNN
+F 4 "Button/Display Connector" H 8200 3050 50  0001 C CNN "Bemerkung"
+F 5 "https://www.segor.de/#Q=SL1x40-180G%252F13%252C8&M=1" H 8200 3050 50  0001 C CNN "Segor.de"
+F 6 "https://www.reichelt.de/40pol-stiftleiste-gerade-rm-2-54-sl-1x40g-2-54-p19506.html" H 8200 3050 50  0001 C CNN "Reichelt"
+F 7 "https://www.conrad.de/de/p/bkl-electronic-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-40-10120513-1-393494.html" H 8200 3050 50  0001 C CNN "Conrad"
 	1    8200 3050
 	1    0    0    -1  
 $EndComp
@@ -424,6 +462,12 @@ F 0 "J7" H 5758 6331 50  0000 C CNN
 F 1 "Conn_01x06_Male" H 5758 6240 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 5650 5950 50  0001 C CNN
 F 3 "~" H 5650 5950 50  0001 C CNN
+F 4 "https://de.aliexpress.com/item/32899722811.html" H 5650 5950 50  0001 C CNN "Aliexpress"
+F 5 "Micro SD Adapter (Connector via Conrad/reichelt/segor)" H 5650 5950 50  0001 C CNN "Bemerkung"
+F 6 "https://www.ebay.de/itm/Micro-SD-Karten-SD-Card-Modul-SPI-fur-Breadboard-Arduino-Raspberry-Pi/333618265671 --- https://www.ebay.de/itm/TF-Card-for-Micro-SD-Card-Read-Write-Module-for-D1-Mini-Extended-Learning-Board/153577116741  (Option 3- 6Pin Board)" H 5650 5950 50  0001 C CNN "ebay"
+F 7 "https://www.conrad.de/de/p/tru-components-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-34-tc-8559760-1-2139940.html" H 5650 5950 50  0001 C CNN "Conrad"
+F 8 "https://www.reichelt.de/36pol-stiftleiste-gewinkelt-rm-2-54-sl-1x36w-2-54-p19505.html?&trstct=pos_1&nbc=1" H 5650 5950 50  0001 C CNN "Reichelt"
+F 9 "https://www.segor.de/#Q=SL1x40-90G&M=1" H 5650 5950 50  0001 C CNN "Segor.de"
 	1    5650 5950
 	1    0    0    -1  
 $EndComp
@@ -477,6 +521,8 @@ F 0 "R1" H 9309 3096 50  0000 L CNN
 F 1 "10k" H 9309 3005 50  0000 L CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 9250 3050 50  0001 C CNN
 F 3 "~" H 9250 3050 50  0001 C CNN
+F 4 "https://www.segor.de/#Q=MF10k-1%2525&M=1" H 9250 3050 50  0001 C CNN "Segor.de"
+F 5 "https://www.reichelt.de/widerstand-kohleschicht-10-kohm-0207-250-mw-5-1-4w-10k-p1338.html?r=1" H 9250 3050 50  0001 C CNN "Reichelt"
 	1    9250 3050
 	-1   0    0    1   
 $EndComp
@@ -513,6 +559,8 @@ F 0 "R2" H 1509 2046 50  0000 L CNN
 F 1 "5M" H 1509 1955 50  0000 L CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1450 2000 50  0001 C CNN
 F 3 "~" H 1450 2000 50  0001 C CNN
+F 4 "https://www.segor.de/#Q=MF5M6-1%2525&M=1" H 1450 2000 50  0001 C CNN "Segor.de"
+F 5 "https://www.reichelt.de/widerstand-metallschicht-1-0-mohm-0207-250-mw-0-1-arc-mra0207-1m-b-p237509.html" H 1450 2000 50  0001 C CNN "Reichelt"
 	1    1450 2000
 	1    0    0    -1  
 $EndComp
@@ -524,6 +572,8 @@ F 0 "R3" H 1509 2346 50  0000 L CNN
 F 1 "10M" H 1509 2255 50  0000 L CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1450 2300 50  0001 C CNN
 F 3 "~" H 1450 2300 50  0001 C CNN
+F 4 "2x https://www.segor.de/#Q=MF5M6-1%2525&M=1" H 1450 2300 50  0001 C CNN "Segor.de"
+F 5 "2x https://www.reichelt.de/widerstand-metallschicht-1-0-mohm-0207-250-mw-0-1-arc-mra0207-1m-b-p237509.html" H 1450 2300 50  0001 C CNN "Reichelt"
 	1    1450 2300
 	1    0    0    -1  
 $EndComp
@@ -572,10 +622,11 @@ F 0 "C1" H 1000 2350 50  0000 L CNN
 F 1 "100n" H 950 2250 50  0000 L CNN
 F 2 "Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 1250 2300 50  0001 C CNN
 F 3 "~" H 1250 2300 50  0001 C CNN
-F 4 "123" H 1250 2300 50  0001 C CNN "Reichelt"
-F 5 "123" H 1250 2300 50  0001 C CNN "Aliexpress"
-F 6 "123" H 1250 2300 50  0001 C CNN "Conrad"
-F 7 "123" H 1250 2300 50  0001 C CNN "ebay"
+F 4 "https://www.reichelt.de/vielschicht-keramikkondensator-100n-10-x7r-2-5-100n-p22853.html" H 1250 2300 50  0001 C CNN "Reichelt"
+F 5 "--" H 1250 2300 50  0001 C CNN "Aliexpress"
+F 6 "https://www.conrad.de/de/p/tancap-ct4-0805y104m500c1t-keramik-kondensator-tht-100-nf-50-v-20-b-x-h-4-2-mm-x-25-mm-1-1584724.html" H 1250 2300 50  0001 C CNN "Conrad"
+F 7 "--" H 1250 2300 50  0001 C CNN "ebay"
+F 8 "https://www.segor.de/#Q=u10-R2.5-X7R&M=1" H 1250 2300 50  0001 C CNN "Segor.de"
 	1    1250 2300
 	1    0    0    -1  
 $EndComp
@@ -598,6 +649,12 @@ F 0 "D1" V 8641 5762 50  0000 R CNN
 F 1 "LM285Z-1.2" V 8550 5762 50  0000 R CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 8550 5650 50  0001 C CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/LM285-D.PDF" V 8459 5762 50  0000 R CNN
+F 4 "--" H 8550 5850 50  0001 C CNN "Aliexpress"
+F 5 "reichelt und Conrad nur LM385" H 8550 5850 50  0001 C CNN "Bemerkung"
+F 6 "https://www.reichelt.de/spannungsreferenz-fest-1-2-v-to-92-lm-385-z1-2-p10492.html" H 8550 5850 50  0001 C CNN "Reichelt"
+F 7 "https://www.segor.de/#Q=LM285BXZ-1.2%252FSonder&M=1" H 8550 5850 50  0001 C CNN "Segor.de"
+F 8 "--" H 8550 5850 50  0001 C CNN "ebay"
+F 9 "https://www.conrad.de/de/p/on-semiconductor-lm385z-1-2g-pmic-spannungsreferenz-shunt-fest-to-92-174300.html" H 8550 5850 50  0001 C CNN "Conrad"
 	1    8550 5850
 	0    -1   -1   0   
 $EndComp
@@ -620,6 +677,10 @@ F 0 "R4" H 8609 5546 50  0000 L CNN
 F 1 "150k" H 8609 5455 50  0000 L CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 8550 5500 50  0001 C CNN
 F 3 "~" H 8550 5500 50  0001 C CNN
+F 4 "x" H 8550 5500 50  0001 C CNN "Optional"
+F 5 "https://www.segor.de/#Q=MF150k-1%2525&M=1" H 8550 5500 50  0001 C CNN "Segor.de"
+F 6 "https://www.reichelt.de/widerstand-kohleschicht-150-kohm-0207-250-mw-5-1-4w-150k-p1355.html" H 8550 5500 50  0001 C CNN "Reichelt"
+F 7 "https://www.conrad.de/de/p/yageo-cfr-25jt-52-150k-kohleschicht-widerstand-150-k-axial-bedrahtet-0207-0-25-w-5-1-1417642.html" H 8550 5500 50  0001 C CNN "Conrad"
 	1    8550 5500
 	1    0    0    -1  
 $EndComp
@@ -659,6 +720,9 @@ F 0 "R5" H 9059 5546 50  0000 L CNN
 F 1 "150k" H 9059 5455 50  0000 L CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 9000 5500 50  0001 C CNN
 F 3 "~" H 9000 5500 50  0001 C CNN
+F 4 "https://www.segor.de/#Q=150k-1206-1%2525&M=1" H 9000 5500 50  0001 C CNN "Segor.de"
+F 5 "https://www.reichelt.de/smd-widerstand-1206-150-kohm-125-mw-0-1-spr-1206-150k-p123462.html" H 9000 5500 50  0001 C CNN "Reichelt"
+F 6 "https://www.conrad.de/de/p/tru-components-tc-1206s4f1503t5e203-dickschicht-widerstand-150-k-smd-1206-0-25-w-1-1-1584522.html" H 9000 5500 50  0001 C CNN "Conrad"
 	1    9000 5500
 	1    0    0    -1  
 $EndComp
@@ -708,8 +772,8 @@ Wire Notes Line
 	5250 4800 650  4800
 Text Notes 750  1350 0    118  ~ 0
 ESP32 Board
-Text Notes 800  3150 0    59   ~ 0
-Messteil Akkuspannung \n(nach Schutzschaltung)\nR3 kann als 2x 5M in Reihe \nausgelegt werden
+Text Notes 750  3600 0    59   ~ 0
+Messteil Akkuspannung \n(nach Schutzschaltung)\nR3 kann als 2x 5M in Reihe \nausgelegt werden.\n\nNur Verhältnis wichtig. \nNicht genauer Wert.\nMöglichst hochohmig!
 Text Notes 2050 3950 0    59   ~ 0
 Unbedingt auf Pinbelegung des ESP32 Bords achten!\nDieses Board hat 30 Pins. Manche Boards haben \nauch 38 Pins. Diese sind sehr ähnlich, \naber NICHT pinkompatibel. GND Pins zwischen IOs!
 Text Notes 5400 2050 0    118  ~ 0
@@ -754,6 +818,11 @@ F 0 "J8" H 8108 1931 50  0000 C CNN
 F 1 "Conn_01x06_Male" H 8108 1840 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 8000 1550 50  0001 C CNN
 F 3 "~" H 8000 1550 50  0001 C CNN
+F 4 "x" H 8000 1550 50  0001 C CNN "Optional"
+F 5 "https://www.segor.de/#Q=SL1x40-180G%252F13%252C8&M=1" H 8000 1550 50  0001 C CNN "Segor.de"
+F 6 "https://www.reichelt.de/40pol-stiftleiste-gerade-rm-2-54-sl-1x40g-2-54-p19506.html" H 8000 1550 50  0001 C CNN "Reichelt"
+F 7 "https://www.conrad.de/de/p/bkl-electronic-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-40-10120513-1-393494.html" H 8000 1550 50  0001 C CNN "Conrad"
+F 8 "Zusatz Connector 1" H 8000 1550 50  0001 C CNN "Bemerkung"
 	1    8000 1550
 	1    0    0    -1  
 $EndComp
@@ -765,6 +834,11 @@ F 0 "J9" H 10008 1931 50  0000 C CNN
 F 1 "Conn_01x06_Male" H 10008 1840 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 9900 1550 50  0001 C CNN
 F 3 "~" H 9900 1550 50  0001 C CNN
+F 4 "x" H 9900 1550 50  0001 C CNN "Optional"
+F 5 "https://www.segor.de/#Q=SL1x40-180G%252F13%252C8&M=1" H 9900 1550 50  0001 C CNN "Segor.de"
+F 6 "https://www.reichelt.de/40pol-stiftleiste-gerade-rm-2-54-sl-1x40g-2-54-p19506.html" H 9900 1550 50  0001 C CNN "Reichelt"
+F 7 "https://www.conrad.de/de/p/bkl-electronic-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-40-10120513-1-393494.html" H 9900 1550 50  0001 C CNN "Conrad"
+F 8 "Zusatz Connector 2" H 9900 1550 50  0001 C CNN "Bemerkung"
 	1    9900 1550
 	1    0    0    -1  
 $EndComp
@@ -908,6 +982,12 @@ F 0 "C2" H 5138 6446 50  0000 L CNN
 F 1 "22u" H 5138 6355 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 5050 6400 50  0001 C CNN
 F 3 "~" H 5050 6400 50  0001 C CNN
+F 4 "x" H 5050 6400 50  0001 C CNN "Optional"
+F 5 "--" H 5050 6400 50  0001 C CNN "Aliexpress"
+F 6 "https://www.reichelt.de/elko-radial-22-uf-10-v-1000-h-low-esr-aec-q200-rad-fc-22-10-p84587.html" H 5050 6400 50  0001 C CNN "Reichelt"
+F 7 "https://www.segor.de/#Q=ELRA22u-16%252F4x7&M=1" H 5050 6400 50  0001 C CNN "Segor.de"
+F 8 "--" H 5050 6400 50  0001 C CNN "ebay"
+F 9 "https://www.conrad.de/de/p/teapo-kss226m016s1a5b07k-elektrolyt-kondensator-radial-bedrahtet-1-5-mm-22-f-16-v-20-x-h-4-mm-x-7-mm-1-1325867.html" H 5050 6400 50  0001 C CNN "Conrad"
 	1    5050 6400
 	1    0    0    -1  
 $EndComp
@@ -919,6 +999,12 @@ F 0 "C3" H 4650 6450 50  0000 L CNN
 F 1 "22u" H 4650 6350 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 4900 6400 50  0001 C CNN
 F 3 "~" H 4900 6400 50  0001 C CNN
+F 4 "x" H 4900 6400 50  0001 C CNN "Optional"
+F 5 "--" H 4900 6400 50  0001 C CNN "Aliexpress"
+F 6 "https://www.reichelt.de/elko-radial-22-uf-10-v-1000-h-low-esr-aec-q200-rad-fc-22-10-p84587.html" H 4900 6400 50  0001 C CNN "Reichelt"
+F 7 "https://www.segor.de/#Q=ELRA22u-16%252F4x7&M=1" H 4900 6400 50  0001 C CNN "Segor.de"
+F 8 "--" H 4900 6400 50  0001 C CNN "ebay"
+F 9 "https://www.conrad.de/de/p/teapo-kss226m016s1a5b07k-elektrolyt-kondensator-radial-bedrahtet-1-5-mm-22-f-16-v-20-x-h-4-mm-x-7-mm-1-1325867.html" H 4900 6400 50  0001 C CNN "Conrad"
 	1    4900 6400
 	1    0    0    -1  
 $EndComp
@@ -932,6 +1018,7 @@ F 0 "R6" H 9759 3096 50  0000 L CNN
 F 1 "10k" H 9759 3005 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 9700 3050 50  0001 C CNN
 F 3 "~" H 9700 3050 50  0001 C CNN
+F 4 "x" H 9700 3050 50  0001 C CNN "Optional"
 	1    9700 3050
 	-1   0    0    1   
 $EndComp
@@ -943,6 +1030,7 @@ F 0 "R7" H 10109 3096 50  0000 L CNN
 F 1 "10k" H 10109 3005 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 10050 3050 50  0001 C CNN
 F 3 "~" H 10050 3050 50  0001 C CNN
+F 4 "x" H 10050 3050 50  0001 C CNN "Optional"
 	1    10050 3050
 	-1   0    0    1   
 $EndComp

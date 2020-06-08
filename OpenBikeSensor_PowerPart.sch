@@ -24,6 +24,8 @@ F 0 "U4" H 1675 2065 50  0000 C CNN
 F 1 "DCDC_fix" H 1675 1974 50  0000 C CNN
 F 2 "Custom_Modules:MT3608_SEPIC_DCDC" H 1650 1950 50  0001 C CNN
 F 3 "" H 1650 1950 50  0001 C CNN
+F 4 "https://de.aliexpress.com/item/33029072332.html?spm=a2g0s.9042311.0.0.3da24c4dCy9veI" H 1700 1600 50  0001 C CNN "Aliexpress"
+F 5 "https://www.ebay.de/itm/Automatic-Buck-Boost-Step-Up-Down-Module-DC-DC-2-5V-15V-To-3-3V-4-2V-5V-9V-12V/264075497616?_trksid=p2485497.m4902.l9144 " H 1700 1600 50  0001 C CNN "ebay"
 	1    1700 1600
 	1    0    0    -1  
 $EndComp
@@ -118,6 +120,7 @@ F 0 "U2" H 8525 2765 50  0000 C CNN
 F 1 "LM2596_mini" H 8525 2674 50  0000 C CNN
 F 2 "" H 8500 2650 50  0001 C CNN
 F 3 "" H 8500 2650 50  0001 C CNN
+F 4 "obsolet" H 8550 2300 50  0001 C CNN "Optional"
 	1    8550 2300
 	1    0    0    -1  
 $EndComp
@@ -209,6 +212,11 @@ F 0 "M1" H 1575 3165 50  0000 C CNN
 F 1 "LIPoChargerwithProtection" H 1575 3074 50  0000 C CNN
 F 2 "Custom_Modules:BATTERY-CHARGER-LI-PROT" H 1550 3100 50  0001 C CNN
 F 3 "" H 1550 3100 50  0001 C CNN
+F 4 "https://de.aliexpress.com/item/4000845174924.html" H 1550 3100 50  0001 C CNN "Aliexpress"
+F 5 "https://www.ebay.de/itm/TP4056-USB-C-Neu-Li-Ion-Lademodul-5V-1A-18650-Laderegler-Charger-LIPO-Board/392521487361?hash=item5b641a9401:m:mVnUrPFcSEHHaEuYbWKFGEQ" H 1550 3100 50  0001 C CNN "ebay"
+F 6 "--" H 1550 3100 50  0001 C CNN "Conrad"
+F 7 "--" H 1550 3100 50  0001 C CNN "Reichelt"
+F 8 "--" H 1550 3100 50  0001 C CNN "Segor.de"
 	1    1550 3100
 	1    0    0    -1  
 $EndComp
@@ -267,6 +275,10 @@ F 0 "J6" V 2450 3050 50  0000 C CNN
 F 1 "Conn_01x02_Male" V 2550 3100 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2650 3100 50  0001 C CNN
 F 3 "~" H 2650 3100 50  0001 C CNN
+F 4 "Switch Connector" H 2650 3100 50  0001 C CNN "Bemerkung"
+F 5 "https://www.segor.de/#Q=SL1x40-180G%252F13%252C8&M=1" H 2650 3100 50  0001 C CNN "Segor.de"
+F 6 "https://www.reichelt.de/40pol-stiftleiste-gerade-rm-2-54-sl-1x40g-2-54-p19506.html" H 2650 3100 50  0001 C CNN "Reichelt"
+F 7 "https://www.conrad.de/de/p/bkl-electronic-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-40-10120513-1-393494.html" H 2650 3100 50  0001 C CNN "Conrad"
 	1    2650 3100
 	0    1    1    0   
 $EndComp
@@ -349,6 +361,10 @@ F 0 "J1" H 1058 4631 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 1058 4540 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 950 4450 50  0001 C CNN
 F 3 "~" H 950 4450 50  0001 C CNN
+F 4 "Batterie Connector (bevorzugt Reichelt da direkt als Kabelset!)" H 950 4450 50  0001 C CNN "Bemerkung"
+F 5 "https://www.conrad.de/de/p/bkl-electronic-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-40-10120513-1-393494.html" H 950 4450 50  0001 C CNN "Conrad"
+F 6 "https://www.reichelt.de/platinensteckverbinder-gerade-weiss-2-polig-ps-25-2g-ws-p14825.html" H 950 4450 50  0001 C CNN "Reichelt"
+F 7 "https://www.segor.de/#Q=SL1x40-180G%252F13%252C8&M=1" H 950 4450 50  0001 C CNN "Segor.de"
 	1    950  4450
 	1    0    0    -1  
 $EndComp
