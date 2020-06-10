@@ -321,34 +321,32 @@ Wire Notes Line
 	650  4700 2850 4700
 Text Notes 750  4150 0    118  ~ 0
 Connector Battery
-Wire Wire Line
-	1150 4450 1550 4450
 $Comp
 L power:-BATT #PWR?
 U 1 1 5EE082A0
-P 1550 4550
+P 1050 6050
 AR Path="/5EE082A0" Ref="#PWR?"  Part="1" 
 AR Path="/5EDE387A/5EE082A0" Ref="#PWR0120"  Part="1" 
-F 0 "#PWR0120" H 1550 4400 50  0001 C CNN
-F 1 "-BATT" V 1565 4678 50  0000 L CNN
-F 2 "" H 1550 4550 50  0001 C CNN
-F 3 "" H 1550 4550 50  0001 C CNN
-	1    1550 4550
-	0    1    1    0   
+F 0 "#PWR0120" H 1050 5900 50  0001 C CNN
+F 1 "-BATT" H 700 6100 50  0000 L CNN
+F 2 "" H 1050 6050 50  0001 C CNN
+F 3 "" H 1050 6050 50  0001 C CNN
+	1    1050 6050
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	1150 4550 1550 4550
 $Comp
 L power:+BATT #PWR?
 U 1 1 5EE082A7
-P 1550 4450
+P 1050 5450
 AR Path="/5EE082A7" Ref="#PWR?"  Part="1" 
 AR Path="/5EDE387A/5EE082A7" Ref="#PWR0121"  Part="1" 
-F 0 "#PWR0121" H 1550 4300 50  0001 C CNN
-F 1 "+BATT" H 1565 4623 50  0000 C CNN
-F 2 "" H 1550 4450 50  0001 C CNN
-F 3 "" H 1550 4450 50  0001 C CNN
-	1    1550 4450
+F 0 "#PWR0121" H 1050 5300 50  0001 C CNN
+F 1 "+BATT" H 1065 5623 50  0000 C CNN
+F 2 "" H 1050 5450 50  0001 C CNN
+F 3 "" H 1050 5450 50  0001 C CNN
+	1    1050 5450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -368,4 +366,70 @@ F 7 "https://www.segor.de/#Q=SL1x40-180G%252F13%252C8&M=1" H 950 4450 50  0001 C
 	1    950  4450
 	1    0    0    -1  
 $EndComp
+$Comp
+L device:Polyfuse F1
+U 1 1 5EE15FB8
+P 1750 4450
+F 0 "F1" V 1525 4450 50  0000 C CNN
+F 1 "Polyfuse" V 1616 4450 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuse_TE5_Littlefuse-395Series" H 1800 4250 50  0001 L CNN
+F 3 "~" H 1750 4450 50  0001 C CNN
+	1    1750 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1900 4450 2050 4450
+Wire Wire Line
+	1150 4450 1600 4450
+$Comp
+L diode:1N4004 D2
+U 1 1 5EE17EBE
+P 1050 5750
+F 0 "D2" V 1004 5829 50  0000 L CNN
+F 1 "1N4004" V 1095 5829 50  0000 L CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1050 5575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 1050 5750 50  0001 C CNN
+	1    1050 5750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1050 5600 1050 5450
+Wire Wire Line
+	1050 6050 1050 5900
+$Comp
+L power:+BATT #PWR?
+U 1 1 5EE1FB8D
+P 2050 4450
+AR Path="/5EE1FB8D" Ref="#PWR?"  Part="1" 
+AR Path="/5EDE387A/5EE1FB8D" Ref="#PWR0123"  Part="1" 
+F 0 "#PWR0123" H 2050 4300 50  0001 C CNN
+F 1 "+BATT" H 2065 4623 50  0000 C CNN
+F 2 "" H 2050 4450 50  0001 C CNN
+F 3 "" H 2050 4450 50  0001 C CNN
+	1    2050 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-BATT #PWR?
+U 1 1 5EE1FEB1
+P 1550 4550
+AR Path="/5EE1FEB1" Ref="#PWR?"  Part="1" 
+AR Path="/5EDE387A/5EE1FEB1" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0124" H 1550 4400 50  0001 C CNN
+F 1 "-BATT" V 1550 4700 50  0000 L CNN
+F 2 "" H 1550 4550 50  0001 C CNN
+F 3 "" H 1550 4550 50  0001 C CNN
+	1    1550 4550
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	650  4950 2850 4950
+Wire Notes Line
+	2850 4950 2850 6450
+Wire Notes Line
+	2850 6450 650  6450
+Wire Notes Line
+	650  6450 650  4950
+Text Notes 700  5150 0    118  ~ 0
+Verpolschutz Battery
 $EndSCHEMATC

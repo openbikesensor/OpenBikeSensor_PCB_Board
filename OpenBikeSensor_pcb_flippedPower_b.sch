@@ -261,10 +261,10 @@ U 1 1 5ED32C40
 P 3100 1600
 F 0 "U1" H 3150 1667 50  0000 C CNN
 F 1 "ESP32-DEVKIT-32C" H 3150 1576 50  0000 C CNN
-F 2 "ESP32-DEVKITC-32D:MODULE_ESP32-DEVKITC-32C_SMD" H 3100 1600 50  0001 C CNN
+F 2 "ESP32-DEVKITC-32D:MODULE_ESP32-DEVKITC-32C_SMDBACKUP" H 3100 1600 50  0001 C CNN
 F 3 "" H 3100 1600 50  0001 C CNN
 F 4 "2x https://www.conrad.de/de/p/fischer-elektronik-buchsenleiste-standard-anzahl-reihen-1-polzahl-je-reihe-20-bl-lp-5-smd-20-z-1-409080.html" H 3100 1600 50  0001 C CNN "Conrad"
-F 5 "https://de.aliexpress.com/item/32889969250.html --- https://de.aliexpress.com/item/32959541446.html" H 3100 1600 50  0001 C CNN "Aliexpress"
+F 5 "https://de.aliexpress.com/item/32889969250.html --- https://de.aliexpress.com/item/32959541446.html --- https://de.aliexpress.com/item/33040503442.html  --- https://de.aliexpress.com/item/4001050278803.html" H 3100 1600 50  0001 C CNN "Aliexpress"
 F 6 "2x  https://www.reichelt.de/buchsenleisten-2-54-mm-1x16-gerade-mpe-094-1-016-p119919.html   und Beinchen wechselseitig umbiegen. Nur im Notfall!" H 3100 1600 50  0001 C CNN "Reichelt"
 F 7 "https://www.segor.de/#Q=FL1x20-180G(h%253D5%252C7mm)&M=1   und Beinchen wechselseitig umbiegen. Nur im Notfall!" H 3100 1600 50  0001 C CNN "Segor.de"
 F 8 "https://www.ebay.de/itm/10-pcs-SMD-Buchsenleiste-1x-16-polig-RM-2-54mm-NEU-BP/231930033721?hash=item36001b7639:g:5Q4AAOSwofxUgJJ7" H 3100 1600 50  0001 C CNN "ebay"
