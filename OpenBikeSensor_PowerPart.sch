@@ -387,7 +387,7 @@ U 1 1 5EE17EBE
 P 1050 5750
 F 0 "D2" V 1004 5829 50  0000 L CNN
 F 1 "1N4004" V 1095 5829 50  0000 L CNN
-F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1050 5575 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P5.08mm_Vertical_KathodeUp" H 1050 5575 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 1050 5750 50  0001 C CNN
 	1    1050 5750
 	0    1    1    0   
@@ -432,4 +432,55 @@ Wire Notes Line
 	650  6450 650  4950
 Text Notes 700  5150 0    118  ~ 0
 Verpolschutz Battery
+$Comp
+L conn:Conn_01x02_Male J?
+U 1 1 5EED3385
+P 3000 1550
+AR Path="/5EED3385" Ref="J?"  Part="1" 
+AR Path="/5EDE387A/5EED3385" Ref="J11"  Part="1" 
+F 0 "J11" H 3108 1731 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 3108 1640 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm_SMD_Pin1Left" H 3000 1550 50  0001 C CNN
+F 3 "~" H 3000 1550 50  0001 C CNN
+F 4 "Batterie Connector (bevorzugt Reichelt da direkt als Kabelset!)" H 3000 1550 50  0001 C CNN "Bemerkung"
+F 5 "https://www.conrad.de/de/p/bkl-electronic-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-40-10120513-1-393494.html" H 3000 1550 50  0001 C CNN "Conrad"
+F 6 "https://www.reichelt.de/platinensteckverbinder-gerade-weiss-2-polig-ps-25-2g-ws-p14825.html" H 3000 1550 50  0001 C CNN "Reichelt"
+F 7 "https://www.segor.de/#Q=SL1x40-180G%252F13%252C8&M=1" H 3000 1550 50  0001 C CNN "Segor.de"
+	1    3000 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5EED3AE0
+P 3500 1500
+AR Path="/5EED3AE0" Ref="#PWR?"  Part="1" 
+AR Path="/5EDE387A/5EED3AE0" Ref="#PWR04"  Part="1" 
+F 0 "#PWR04" H 3500 1350 50  0001 C CNN
+F 1 "+3.3V" H 3515 1673 50  0000 C CNN
+F 2 "" H 3500 1500 50  0001 C CNN
+F 3 "" H 3500 1500 50  0001 C CNN
+	1    3500 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EED3F0D
+P 3500 1700
+AR Path="/5EED3F0D" Ref="#PWR?"  Part="1" 
+AR Path="/5EDE387A/5EED3F0D" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 3500 1450 50  0001 C CNN
+F 1 "GND" H 3505 1527 50  0000 C CNN
+F 2 "" H 3500 1700 50  0001 C CNN
+F 3 "" H 3500 1700 50  0001 C CNN
+	1    3500 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1550 3500 1550
+Wire Wire Line
+	3500 1550 3500 1500
+Wire Wire Line
+	3200 1650 3500 1650
+Wire Wire Line
+	3500 1650 3500 1700
 $EndSCHEMATC

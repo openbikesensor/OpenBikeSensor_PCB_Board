@@ -952,12 +952,6 @@ Wire Notes Line
 	11050 550  7750 550 
 Text Notes 7850 750  0    118  ~ 0
 Connector optical sensors
-$Sheet
-S 7800 3950 2450 650 
-U 5EDE387A
-F0 "PowerPart" 118
-F1 "OpenBikeSensor_PowerPart.sch" 118
-$EndSheet
 Wire Notes Line
 	5350 3500 5350 1800
 Wire Notes Line
@@ -1081,4 +1075,69 @@ F 3 "" H 6200 1400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6200 1400 6000 1400
+Text GLabel 2250 3000 0    39   Input ~ 0
+IO12
+Text GLabel 2250 3100 0    39   Input ~ 0
+IO13
+Wire Wire Line
+	2250 3000 2350 3000
+Wire Wire Line
+	2350 3100 2250 3100
+Text GLabel 4100 2100 2    39   Input ~ 0
+RX
+Text GLabel 4100 2200 2    39   Input ~ 0
+TX
+Wire Wire Line
+	4100 2100 3950 2100
+Wire Wire Line
+	4100 2200 3950 2200
+Text GLabel 6800 4400 2    39   Input ~ 0
+RX
+Text GLabel 6800 4300 2    39   Input ~ 0
+TX
+Text GLabel 6000 4400 0    39   Input ~ 0
+IO12
+Text GLabel 6000 4300 0    39   Input ~ 0
+IO13
+Wire Wire Line
+	6650 4400 6800 4400
+Wire Wire Line
+	6800 4300 6650 4300
+Wire Wire Line
+	6150 4400 6000 4400
+Wire Wire Line
+	6000 4300 6150 4300
+$Sheet
+S 7800 3950 2450 650 
+U 5EDE387A
+F0 "PowerPart" 118
+F1 "OpenBikeSensor_PowerPart.sch" 118
+$EndSheet
+$Comp
+L conn:Conn_02x03_Odd_Even J10
+U 1 1 5EE8147C
+P 6450 4300
+F 0 "J10" H 6500 4617 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 6500 4526 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm_SMD" H 6450 4300 50  0001 C CNN
+F 3 "~" H 6450 4300 50  0001 C CNN
+	1    6450 4300
+	-1   0    0    -1  
+$EndComp
+Text GLabel 2200 2100 0    39   Input ~ 0
+VN
+Text GLabel 2200 2000 0    39   Input ~ 0
+VP
+Wire Wire Line
+	2200 2000 2350 2000
+Wire Wire Line
+	2350 2100 2200 2100
+Text GLabel 6000 4200 0    39   Input ~ 0
+VN
+Wire Wire Line
+	6150 4200 6000 4200
+Wire Wire Line
+	6650 4200 6800 4200
+Text GLabel 6800 4200 2    39   Input ~ 0
+VP
 $EndSCHEMATC
