@@ -1124,7 +1124,7 @@
   )
 
   (module Custom_logo:OpenBikeSensorLogo (layer F.Cu) (tedit 0) (tstamp 5EDCD5BB)
-    (at 54.75 93.25)
+    (at 53.7 93.6)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -1337,7 +1337,7 @@
     )
   )
 
-  (module Custom_logo:BB_8x6 (layer B.Cu) (tedit 0) (tstamp 5EDCDBBA)
+  (module Custom_logo:BB_8x6 (layer B.Cu) (tedit 0) (tstamp 5EE61BEF)
     (at 55 90.5 180)
     (fp_text reference G*** (at 0 0) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
