@@ -2,7 +2,9 @@
 
 Aktuelle Version ist das "OpenBikeSensor_pcb_flippedPower_b.pro".
 
-Aktueller Branch: "Mit Sicherung"
+Aktueller Branch: "Mit_Verpolschutz"
+Master-Branch war der ausgehende. Danach wurde die 2x15 Federleistenversion davon abgeleitet. Diese hat die Möglichkeit gewinkelte THT-Buchsenleiste als SMD-Leiste zu nutzen (für den Notfall). Darauf aufbauend wurde im default-Branch dann ein Verpolungsschutz für den Akku hinzugefügt.
+
 ## Bugs / Todo:
 
 - ~~Maße des MT3608 noch nicht final. Lochabstände nicht aus Abbildungen sicher erkennbar. SEPIC statt Buck nötig! Daher LM2596 daher nicht einfach verwendbar!~~
