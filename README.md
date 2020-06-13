@@ -1,6 +1,8 @@
 # OpenBikeSensor_pcb
 
 Aktuelle Version ist das "OpenBikeSensor_pcb_flippedPower_b.pro".
+
+Aktueller Branch: "Mit Sicherung"
 ## Bugs / Todo:
 
 - ~~Maße des MT3608 noch nicht final. Lochabstände nicht aus Abbildungen sicher erkennbar. SEPIC statt Buck nötig! Daher LM2596 daher nicht einfach verwendbar!~~
