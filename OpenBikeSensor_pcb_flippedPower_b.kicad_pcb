@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.25)
     (user_trace_width 0.2)
     (user_trace_width 0.5)
     (user_trace_width 0.6)
@@ -990,9 +990,9 @@
       (net 33 VP))
     (pad 1 smd rect (at -14.25 -19.76) (size 3 0.65) (layers F.Cu F.Paste F.Mask))
     (model ${OPENBIKE}/ESP-WROOM32.STEP
-      (offset (xyz -1.5 19 12))
+      (offset (xyz 1.5 -15 12))
       (scale (xyz 1 1 1))
-      (rotate (xyz 90 180 0))
+      (rotate (xyz 90 180 180))
     )
   )
 
