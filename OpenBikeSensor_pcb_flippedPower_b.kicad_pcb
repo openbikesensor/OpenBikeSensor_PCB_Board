@@ -2965,6 +2965,7 @@
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify mirror))
   )
   (gr_text "Rev 00.02.04\n" (at 47.498 86.741 90) (layer F.SilkS)
+>>>>>>> dfc5f851cf6c5f24e09c1a2847052964e2e247d1
     (effects (font (size 1.5 1.5) (thickness 0.2)))
   )
   (gr_text GND (at 32.2 78.5) (layer F.SilkS) (tstamp 5EE4F781)
