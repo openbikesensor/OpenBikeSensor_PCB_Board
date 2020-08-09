@@ -228,17 +228,6 @@ F 3 "" H 6200 1000 50  0001 C CNN
 	1    6200 1000
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR08
-U 1 1 5ED28615
-P 6200 1300
-F 0 "#PWR08" H 6200 1050 50  0001 C CNN
-F 1 "GND" V 6200 950 50  0000 C CNN
-F 2 "" H 6200 1300 50  0001 C CNN
-F 3 "" H 6200 1300 50  0001 C CNN
-	1    6200 1300
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6200 1300 6000 1300
 Wire Wire Line
@@ -642,96 +631,24 @@ Connection ~ 1450 2500
 Wire Wire Line
 	1450 2500 1450 2400
 $Comp
-L references:LM285Z-1.2 D1
-U 1 1 5EDDD286
-P 8550 5850
-F 0 "D1" V 8641 5762 50  0000 R CNN
-F 1 "LM285Z-1.2" V 8550 5762 50  0000 R CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 8550 5650 50  0001 C CIN
-F 3 "http://www.onsemi.com/pub_link/Collateral/LM285-D.PDF" V 8459 5762 50  0000 R CNN
-F 4 "--" H 8550 5850 50  0001 C CNN "Aliexpress"
-F 5 "reichelt und Conrad nur LM385" H 8550 5850 50  0001 C CNN "Bemerkung"
-F 6 "https://www.reichelt.de/spannungsreferenz-fest-1-2-v-to-92-lm-385-z1-2-p10492.html" H 8550 5850 50  0001 C CNN "Reichelt"
-F 7 "https://www.segor.de/#Q=LM285BXZ-1.2%252FSonder&M=1" H 8550 5850 50  0001 C CNN "Segor.de"
-F 8 "--" H 8550 5850 50  0001 C CNN "ebay"
-F 9 "https://www.conrad.de/de/p/on-semiconductor-lm385z-1-2g-pmic-spannungsreferenz-shunt-fest-to-92-174300.html" H 8550 5850 50  0001 C CNN "Conrad"
-	1    8550 5850
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR022
 U 1 1 5EDDFE5E
-P 8550 6100
-F 0 "#PWR022" H 8550 5850 50  0001 C CNN
-F 1 "GND" H 8555 5927 50  0000 C CNN
-F 2 "" H 8550 6100 50  0001 C CNN
-F 3 "" H 8550 6100 50  0001 C CNN
-	1    8550 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:R_Small R4
-U 1 1 5EDE0C4A
-P 8550 5500
-F 0 "R4" H 8609 5546 50  0000 L CNN
-F 1 "150k" H 8609 5455 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 8550 5500 50  0001 C CNN
-F 3 "~" H 8550 5500 50  0001 C CNN
-F 4 "x" H 8550 5500 50  0001 C CNN "Optional"
-F 5 "https://www.segor.de/#Q=MF150k-1%2525&M=1" H 8550 5500 50  0001 C CNN "Segor.de"
-F 6 "https://www.reichelt.de/widerstand-kohleschicht-150-kohm-0207-250-mw-5-1-4w-150k-p1355.html" H 8550 5500 50  0001 C CNN "Reichelt"
-F 7 "https://www.conrad.de/de/p/yageo-cfr-25jt-52-150k-kohleschicht-widerstand-150-k-axial-bedrahtet-0207-0-25-w-5-1-1417642.html" H 8550 5500 50  0001 C CNN "Conrad"
-	1    8550 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR021
-U 1 1 5EDE123E
-P 8550 5350
-F 0 "#PWR021" H 8550 5200 50  0001 C CNN
-F 1 "+3.3V" H 8565 5523 50  0000 C CNN
-F 2 "" H 8550 5350 50  0001 C CNN
-F 3 "" H 8550 5350 50  0001 C CNN
-	1    8550 5350
+P 8850 6150
+F 0 "#PWR022" H 8850 5900 50  0001 C CNN
+F 1 "GND" H 8855 5977 50  0000 C CNN
+F 2 "" H 8850 6150 50  0001 C CNN
+F 3 "" H 8850 6150 50  0001 C CNN
+	1    8850 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8550 6100 8550 6000
-Wire Wire Line
-	8550 5700 8550 5650
-Wire Wire Line
-	8550 5350 8550 5400
-Text GLabel 8450 5650 0    50   Input ~ 0
-VoltRef
-Wire Wire Line
-	8450 5650 8550 5650
-Connection ~ 8550 5650
-Wire Wire Line
-	8550 5650 8550 5600
+	8850 6150 8850 6050
+Text GLabel 8450 5850 0    50   Input ~ 0
+GPS_GND_CONT
 Text GLabel 2200 2300 0    50   Input ~ 0
-VoltRef
+GPS_GND_CONT
 Wire Wire Line
 	2200 2300 2350 2300
-$Comp
-L device:R_Small R5
-U 1 1 5EDFEA4B
-P 9000 5500
-F 0 "R5" H 9059 5546 50  0000 L CNN
-F 1 "150k" H 9059 5455 50  0000 L CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" H 9000 5500 50  0001 C CNN
-F 3 "~" H 9000 5500 50  0001 C CNN
-F 4 "https://www.segor.de/#Q=150k-1206-1%2525&M=1" H 9000 5500 50  0001 C CNN "Segor.de"
-F 5 "https://www.reichelt.de/smd-widerstand-1206-150-kohm-125-mw-0-1-spr-1206-150k-p123462.html" H 9000 5500 50  0001 C CNN "Reichelt"
-F 6 "https://www.conrad.de/de/p/tru-components-tc-1206s4f1503t5e203-dickschicht-widerstand-150-k-smd-1206-0-25-w-1-1-1584522.html" H 9000 5500 50  0001 C CNN "Conrad"
-	1    9000 5500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9000 5600 8550 5600
-Connection ~ 8550 5600
-Wire Wire Line
-	8550 5400 9000 5400
-Connection ~ 8550 5400
 Wire Notes Line
 	7900 4850 11050 4850
 Wire Notes Line
@@ -1140,4 +1057,23 @@ Wire Wire Line
 	6650 4200 6800 4200
 Text GLabel 6800 4200 2    39   Input ~ 0
 VP
+$Comp
+L Transistor_FET:BS170 Q1
+U 1 1 5F24A00D
+P 8750 5850
+F 0 "Q1" H 8956 5896 50  0000 L CNN
+F 1 "BS170" H 8956 5805 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8950 5775 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 8750 5850 50  0001 L CNN
+	1    8750 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 5850 8550 5850
+Text GLabel 8850 5600 1    59   Input ~ 0
+GPS_GND
+Wire Wire Line
+	8850 5600 8850 5650
+Text GLabel 6200 1300 2    59   Input ~ 0
+GPS_GND
 $EndSCHEMATC
