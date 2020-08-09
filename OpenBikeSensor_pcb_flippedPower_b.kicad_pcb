@@ -316,6 +316,11 @@
       (net 6 GND))
     (pad OUT+ thru_hole circle (at -10.16 -15.875 90) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 7 +3V3))
+    (model ${OPENBIKE}/MT3608_SEPIC.step
+      (offset (xyz -2.5 -10.8 0))
+      (scale (xyz 0.95 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Custom_logo:BB_5x4 (layer F.Cu) (tedit 0) (tstamp 5F0A3FA9)
