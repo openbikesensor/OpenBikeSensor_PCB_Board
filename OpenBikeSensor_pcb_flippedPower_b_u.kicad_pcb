@@ -14,7 +14,7 @@
     (0 F.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user)
-    (33 F.Adhes user hide)
+    (33 F.Adhes user)
     (34 B.Paste user)
     (35 F.Paste user)
     (36 B.SilkS user)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.6)
+    (last_trace_width 0.25)
     (user_trace_width 0.2)
     (user_trace_width 0.5)
     (user_trace_width 0.6)
@@ -196,7 +196,7 @@
     (add_net XSHUT_2)
   )
 
-  (module ESP32-DEVKITC-32D:MODULE_ESP32-DEVKITC-32C_SMDBACKUP locked (layer F.Cu) (tedit 5F3DA2EB) (tstamp 5EDA078C)
+  (module ESP32-DEVKITC-32D:MODULE_ESP32-DEVKITC-32C_SMDBACKUP locked (layer F.Cu) (tedit 5F3DA941) (tstamp 5EDA078C)
     (at 51.5 79.5)
     (path /5ED32C40)
     (fp_text reference U1 (at -10.829175 -28.446045) (layer F.SilkS)
@@ -312,17 +312,17 @@
     (pad 1 smd rect (at -14.25 -19.76) (size 3 0.65) (layers F.Cu F.Paste F.Mask)
       (net 42 "Net-(U1-Pad1)"))
     (model ${OPENBIKE}/ESP-WROOM32.STEP
-      (offset (xyz 1.27 -15 13.5))
+      (offset (xyz 1.54 -15 13.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 180))
     )
     (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x15_P2.54mm_Vertical_SMD_Pin1Left.step
-      (offset (xyz 13 2 0))
+      (offset (xyz 12.8 2 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
     (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x15_P2.54mm_Vertical_SMD_Pin1Left.step
-      (offset (xyz -13 2 0))
+      (offset (xyz -12.8 2 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
