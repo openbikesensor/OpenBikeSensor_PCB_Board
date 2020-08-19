@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:OpenBikeSensor_pcb_flippedPower_b-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -381,12 +382,12 @@ Wire Wire Line
 Wire Wire Line
 	1150 4450 1600 4450
 $Comp
-L diode:1N4004 D2
+L diode:1N5820 D2
 U 1 1 5EE17EBE
 P 1050 5750
 F 0 "D2" V 1004 5829 50  0000 L CNN
-F 1 "1N4004" V 1095 5829 50  0000 L CNN
-F 2 "Diodes_THT:D_DO-41_SOD81_P5.08mm_Vertical_KathodeUp" H 1050 5575 50  0001 C CNN
+F 1 "SB560" V 1095 5829 50  0000 L CNN
+F 2 "Diode_THT:D_DO-201AE_P12.70mm_Horizontal" H 1050 5575 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 1050 5750 50  0001 C CNN
 	1    1050 5750
 	0    1    1    0   
