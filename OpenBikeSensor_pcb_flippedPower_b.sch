@@ -545,7 +545,7 @@ L device:R_Small R2
 U 1 1 5ED66556
 P 1450 2000
 F 0 "R2" H 1509 2046 50  0000 L CNN
-F 1 "5M" H 1509 1955 50  0000 L CNN
+F 1 "150k" H 1509 1955 50  0000 L CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1450 2000 50  0001 C CNN
 F 3 "~" H 1450 2000 50  0001 C CNN
 F 4 "https://www.segor.de/#Q=MF5M6-1%2525&M=1" H 1450 2000 50  0001 C CNN "Segor.de"
@@ -558,7 +558,7 @@ L device:R_Small R3
 U 1 1 5ED66E45
 P 1450 2300
 F 0 "R3" H 1509 2346 50  0000 L CNN
-F 1 "10M" H 1509 2255 50  0000 L CNN
+F 1 "300k" H 1509 2255 50  0000 L CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1450 2300 50  0001 C CNN
 F 3 "~" H 1450 2300 50  0001 C CNN
 F 4 "2x https://www.segor.de/#Q=MF5M6-1%2525&M=1" H 1450 2300 50  0001 C CNN "Segor.de"
@@ -645,7 +645,7 @@ Wire Wire Line
 	8850 6150 8850 6050
 Text GLabel 8450 5850 0    50   Input ~ 0
 GPS_GND_CONT
-Text GLabel 2200 2300 0    50   Input ~ 0
+Text GLabel 2250 3000 0    50   Input ~ 0
 GPS_GND_CONT
 Wire Wire Line
 	2200 2300 2350 2300
@@ -689,9 +689,9 @@ Wire Notes Line
 	5250 4800 650  4800
 Text Notes 750  1350 0    118  ~ 0
 ESP32 Board
-Text Notes 750  3600 0    59   ~ 0
+Text Notes 750  4000 0    59   ~ 0
 Messteil Akkuspannung \n(nach Schutzschaltung)\nR3 kann als 2x 5M in Reihe \nausgelegt werden.\n\nNur Verhältnis wichtig. \nNicht genauer Wert.\nMöglichst hochohmig!
-Text Notes 2050 3950 0    59   ~ 0
+Text Notes 2050 4250 0    59   ~ 0
 Unbedingt auf Pinbelegung des ESP32 Bords achten!\nDieses Board hat 30 Pins. Manche Boards haben \nauch 38 Pins. Diese sind sehr ähnlich, \naber NICHT pinkompatibel. GND Pins zwischen IOs!
 Text Notes 5400 2050 0    118  ~ 0
 Connectoren Ultraschall
@@ -992,8 +992,8 @@ F 3 "" H 6200 1400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6200 1400 6000 1400
-Text GLabel 2250 3000 0    39   Input ~ 0
-IO12
+Text GLabel 2200 2300 0    39   Input ~ 0
+IO35
 Text GLabel 2250 3100 0    39   Input ~ 0
 IO13
 Wire Wire Line
@@ -1013,7 +1013,7 @@ RX
 Text GLabel 6800 4300 2    39   Input ~ 0
 TX
 Text GLabel 6000 4400 0    39   Input ~ 0
-IO12
+IO35
 Text GLabel 6000 4300 0    39   Input ~ 0
 IO13
 Wire Wire Line
