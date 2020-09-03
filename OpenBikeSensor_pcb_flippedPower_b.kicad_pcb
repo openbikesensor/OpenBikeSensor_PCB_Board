@@ -3427,7 +3427,7 @@
   (gr_text "+3,3V\n\nGND\n\nSCL\n\nSDA\n\nINT IO32\n\nXSHUT" (at 81.3689 99.4537) (layer B.SilkS) (tstamp 5F30F72E)
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left mirror))
   )
-  (gr_text 12 (at 33.782 67.818) (layer F.SilkS)
+  (gr_text 35 (at 33.782 67.818) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text 13 (at 33.782 65.278) (layer F.SilkS)
