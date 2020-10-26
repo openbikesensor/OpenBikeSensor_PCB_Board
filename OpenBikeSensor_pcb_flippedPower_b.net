@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source E:\Users\Benjamin\Documents\tubcloud\Projekte\OpenBikeSensor\OpenBikeSensor_pcb_git\OpenBikeSensor_pcb_flippedPower_b.sch)
-    (date "04.09.2020 00:22:43")
+    (date "26.10.2020 20:59:28")
     (tool "Eeschema (5.1.4)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -228,20 +228,16 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5EE2EDDD))
     (comp (ref R6)
-      (value 10k)
+      (value 1k2)
       (footprint Resistors_SMD:R_0805_HandSoldering)
       (datasheet ~)
-      (fields
-        (field (name Optional) x))
       (libsource (lib device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5EDA6EB5))
     (comp (ref R7)
-      (value 10k)
+      (value 1k2)
       (footprint Resistors_SMD:R_0805_HandSoldering)
       (datasheet ~)
-      (fields
-        (field (name Optional) x))
       (libsource (lib device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5EDA73A1))
