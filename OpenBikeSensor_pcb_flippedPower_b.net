@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source E:\Users\Benjamin\Documents\tubcloud\Projekte\OpenBikeSensor\OpenBikeSensor_pcb_git\OpenBikeSensor_pcb_flippedPower_b.sch)
-    (date "26.10.2020 20:59:28")
+    (date "26.10.2020 21:10:33")
     (tool "Eeschema (5.1.4)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -245,6 +245,8 @@
       (value Conn_02x03_Odd_Even)
       (footprint Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm_SMD)
       (datasheet ~)
+      (fields
+        (field (name Optional) x))
       (libsource (lib conn) (part Conn_02x03_Odd_Even) (description "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5EE8147C))
@@ -328,6 +330,7 @@
       (fields
         (field (name Bemerkung) "Batterie Connector (bevorzugt Reichelt da direkt als Kabelset!)")
         (field (name Conrad) https://www.conrad.de/de/p/bkl-electronic-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-40-10120513-1-393494.html)
+        (field (name Optional) x)
         (field (name Reichelt) https://www.reichelt.de/platinensteckverbinder-gerade-weiss-2-polig-ps-25-2g-ws-p14825.html)
         (field (name Segor.de) https://www.segor.de/#Q=SL1x40-180G%252F13%252C8&M=1))
       (libsource (lib conn) (part Conn_01x02_Male) (description "Generic connector, single row, 01x02"))
