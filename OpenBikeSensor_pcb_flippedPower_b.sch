@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:OpenBikeSensor_pcb_flippedPower_b-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -203,12 +202,12 @@ $EndComp
 Wire Wire Line
 	4900 6550 4900 6950
 $Comp
-L conn:Conn_01x05_Female J2
+L Connector:Conn_01x05_Female J2
 U 1 1 5ED25A92
 P 5800 1200
 F 0 "J2" H 5750 850 50  0000 C CNN
 F 1 "Conn_01x04_Female" H 4650 850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x05_Pitch2.54mm" H 5800 1200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" H 5800 1200 50  0001 C CNN
 F 3 "~" H 5800 1200 50  0001 C CNN
 F 4 "Neo-6M Module (Connector via Conrad/reichelt/segor)" H 5800 1200 50  0001 C CNN "Bemerkung"
 F 5 "https://www.conrad.de/de/p/tru-components-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-34-tc-8559760-1-2139940.html" H 5800 1200 50  0001 C CNN "Conrad"
@@ -277,12 +276,12 @@ Wire Wire Line
 Wire Wire Line
 	4150 3300 3950 3300
 $Comp
-L conn:Conn_01x04_Male J3
+L Connector:Conn_01x04_Male J3
 U 1 1 5ED6A6B4
 P 5850 2400
 F 0 "J3" H 5958 2681 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 5958 2590 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 5850 2400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5850 2400 50  0001 C CNN
 F 3 "~" H 5850 2400 50  0001 C CNN
 F 4 "Ultraschall Connector 1 (Connector via Conrad/reichelt/segor)" H 5850 2400 50  0001 C CNN "Bemerkung"
 F 5 "https://www.conrad.de/de/p/bkl-electronic-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-40-10120513-1-393494.html" H 5850 2400 50  0001 C CNN "Conrad"
@@ -293,12 +292,12 @@ F 8 "https://www.reichelt.de/40pol-stiftleiste-gerade-rm-2-54-sl-1x40g-2-54-p195
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x04_Male J4
+L Connector:Conn_01x04_Male J4
 U 1 1 5ED6B21F
 P 5850 2950
 F 0 "J4" H 5958 3231 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 5958 3140 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 5850 2950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5850 2950 50  0001 C CNN
 F 3 "~" H 5850 2950 50  0001 C CNN
 F 4 "Ultraschall Connector 2 (Connector via Conrad/reichelt/segor)" H 5850 2950 50  0001 C CNN "Bemerkung"
 F 5 "https://de.aliexpress.com/item/32218396409.html" H 5850 2950 50  0001 C CNN "Aliexpress"
@@ -393,12 +392,12 @@ Wire Wire Line
 Wire Wire Line
 	3950 3100 4150 3100
 $Comp
-L conn:Conn_01x05_Male J5
+L Connector:Conn_01x05_Male J5
 U 1 1 5ED82C02
 P 8200 3050
 F 0 "J5" H 8308 3431 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 8308 3340 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 8200 3050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 8200 3050 50  0001 C CNN
 F 3 "~" H 8200 3050 50  0001 C CNN
 F 4 "Button/Display Connector" H 8200 3050 50  0001 C CNN "Bemerkung"
 F 5 "https://www.segor.de/#Q=SL1x40-180G%252F13%252C8&M=1" H 8200 3050 50  0001 C CNN "Segor.de"
@@ -444,12 +443,12 @@ Wire Wire Line
 Wire Wire Line
 	8600 2850 8400 2850
 $Comp
-L conn:Conn_01x06_Male J7
+L Connector:Conn_01x05_Male J7
 U 1 1 5EDB38F7
 P 5650 5950
 F 0 "J7" H 5758 6331 50  0000 C CNN
 F 1 "Conn_01x06_Male" H 5758 6240 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 5650 5950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5650 5950 50  0001 C CNN
 F 3 "~" H 5650 5950 50  0001 C CNN
 F 4 "https://de.aliexpress.com/item/32899722811.html" H 5650 5950 50  0001 C CNN "Aliexpress"
 F 5 "Micro SD Adapter (Connector via Conrad/reichelt/segor)" H 5650 5950 50  0001 C CNN "Bemerkung"
@@ -503,12 +502,12 @@ Wire Wire Line
 Wire Wire Line
 	5850 6250 6000 6250
 $Comp
-L device:R_Small R1
+L Device:R_Small R1
 U 1 1 5ED1D73B
 P 9250 3050
 F 0 "R1" H 9309 3096 50  0000 L CNN
 F 1 "10k" H 9309 3005 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 9250 3050 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 9250 3050 50  0001 C CNN
 F 3 "~" H 9250 3050 50  0001 C CNN
 F 4 "https://www.segor.de/#Q=MF10k-1%2525&M=1" H 9250 3050 50  0001 C CNN "Segor.de"
 F 5 "https://www.reichelt.de/widerstand-kohleschicht-10-kohm-0207-250-mw-5-1-4w-10k-p1338.html?r=1" H 9250 3050 50  0001 C CNN "Reichelt"
@@ -541,12 +540,12 @@ F 3 "" H 9250 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R2
+L Device:R_Small R2
 U 1 1 5ED66556
 P 1450 2000
 F 0 "R2" H 1509 2046 50  0000 L CNN
 F 1 "150k" H 1509 1955 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1450 2000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1450 2000 50  0001 C CNN
 F 3 "~" H 1450 2000 50  0001 C CNN
 F 4 "https://www.segor.de/#Q=MF5M6-1%2525&M=1" H 1450 2000 50  0001 C CNN "Segor.de"
 F 5 "https://www.reichelt.de/widerstand-metallschicht-1-0-mohm-0207-250-mw-0-1-arc-mra0207-1m-b-p237509.html" H 1450 2000 50  0001 C CNN "Reichelt"
@@ -554,12 +553,12 @@ F 5 "https://www.reichelt.de/widerstand-metallschicht-1-0-mohm-0207-250-mw-0-1-a
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R3
+L Device:R_Small R3
 U 1 1 5ED66E45
 P 1450 2300
 F 0 "R3" H 1509 2346 50  0000 L CNN
 F 1 "300k" H 1509 2255 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1450 2300 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1450 2300 50  0001 C CNN
 F 3 "~" H 1450 2300 50  0001 C CNN
 F 4 "2x https://www.segor.de/#Q=MF5M6-1%2525&M=1" H 1450 2300 50  0001 C CNN "Segor.de"
 F 5 "2x https://www.reichelt.de/widerstand-metallschicht-1-0-mohm-0207-250-mw-0-1-arc-mra0207-1m-b-p237509.html" H 1450 2300 50  0001 C CNN "Reichelt"
@@ -604,7 +603,7 @@ Connection ~ 1450 2150
 Wire Wire Line
 	1450 2150 1450 2100
 $Comp
-L device:C_Small C1
+L Device:C_Small C1
 U 1 1 5ED7CAE9
 P 1250 2300
 F 0 "C1" H 1000 2350 50  0000 L CNN
@@ -733,7 +732,7 @@ U 1 1 5ED6887D
 P 8000 1550
 F 0 "J8" H 8108 1931 50  0000 C CNN
 F 1 "Conn_01x06_Male" H 8108 1840 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 8000 1550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 8000 1550 50  0001 C CNN
 F 3 "~" H 8000 1550 50  0001 C CNN
 F 4 "x" H 8000 1550 50  0001 C CNN "Optional"
 F 5 "https://www.segor.de/#Q=SL1x40-180G%252F13%252C8&M=1" H 8000 1550 50  0001 C CNN "Segor.de"
@@ -749,7 +748,7 @@ U 1 1 5ED6AA7D
 P 9900 1550
 F 0 "J9" H 10008 1931 50  0000 C CNN
 F 1 "Conn_01x06_Male" H 10008 1840 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 9900 1550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 9900 1550 50  0001 C CNN
 F 3 "~" H 9900 1550 50  0001 C CNN
 F 4 "x" H 9900 1550 50  0001 C CNN "Optional"
 F 5 "https://www.segor.de/#Q=SL1x40-180G%252F13%252C8&M=1" H 9900 1550 50  0001 C CNN "Segor.de"
@@ -886,7 +885,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 6300 4900 6300
 $Comp
-L device:CP_Small C2
+L Device:CP_Small C2
 U 1 1 5EE2E44B
 P 5050 6400
 F 0 "C2" H 5138 6446 50  0000 L CNN
@@ -903,7 +902,7 @@ F 9 "https://www.conrad.de/de/p/teapo-kss226m016s1a5b07k-elektrolyt-kondensator-
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:CP_Small C3
+L Device:CP_Small C3
 U 1 1 5EE2EDDD
 P 4900 6400
 F 0 "C3" H 4650 6450 50  0000 L CNN
@@ -919,10 +918,8 @@ F 9 "https://www.conrad.de/de/p/teapo-kss226m016s1a5b07k-elektrolyt-kondensator-
 	1    4900 6400
 	1    0    0    -1  
 $EndComp
-Connection ~ 4900 6300
-Connection ~ 4900 6500
 $Comp
-L device:R_Small R6
+L Device:R_Small R6
 U 1 1 5EDA6EB5
 P 9700 3050
 F 0 "R6" H 9759 3096 50  0000 L CNN
@@ -934,7 +931,7 @@ F 4 "" H 9700 3050 50  0001 C CNN "Optional"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R_Small R7
+L Device:R_Small R7
 U 1 1 5EDA73A1
 P 10050 3050
 F 0 "R7" H 10109 3096 50  0000 L CNN
@@ -1031,12 +1028,12 @@ F0 "PowerPart" 118
 F1 "OpenBikeSensor_PowerPart.sch" 118
 $EndSheet
 $Comp
-L conn:Conn_02x03_Odd_Even J10
+L Connector_Generic:Conn_02x03_Odd_Even J10
 U 1 1 5EE8147C
 P 6450 4300
 F 0 "J10" H 6500 4617 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 6500 4526 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm_SMD" H 6450 4300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 6450 4300 50  0001 C CNN
 F 3 "~" H 6450 4300 50  0001 C CNN
 	1    6450 4300
 	-1   0    0    -1  

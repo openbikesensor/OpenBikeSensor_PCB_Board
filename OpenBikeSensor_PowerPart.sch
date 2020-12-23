@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:OpenBikeSensor_pcb_flippedPower_b-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -118,7 +117,7 @@ AR Path="/5EDF346C" Ref="U?"  Part="1"
 AR Path="/5EDE387A/5EDF346C" Ref="U2"  Part="1" 
 F 0 "U2" H 8525 2765 50  0000 C CNN
 F 1 "LM2596_mini" H 8525 2674 50  0000 C CNN
-F 2 "" H 8500 2650 50  0001 C CNN
+F 2 "Custom_Modules:LM2596_Mini" H 8500 2650 50  0001 C CNN
 F 3 "" H 8500 2650 50  0001 C CNN
 F 4 "obsolet" H 8550 2300 50  0001 C CNN "Optional"
 	1    8550 2300
@@ -266,14 +265,14 @@ Wire Wire Line
 Wire Wire Line
 	2250 3700 2400 3700
 $Comp
-L conn:Conn_01x02_Male J?
+L Connector:Conn_01x02_Male J?
 U 1 1 5EDFEA52
 P 2650 3100
 AR Path="/5EDFEA52" Ref="J?"  Part="1" 
 AR Path="/5EDE387A/5EDFEA52" Ref="J6"  Part="1" 
 F 0 "J6" V 2450 3050 50  0000 C CNN
 F 1 "Conn_01x02_Male" V 2550 3100 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2650 3100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2650 3100 50  0001 C CNN
 F 3 "~" H 2650 3100 50  0001 C CNN
 F 4 "Switch Connector" H 2650 3100 50  0001 C CNN "Bemerkung"
 F 5 "https://www.segor.de/#Q=SL1x40-180G%252F13%252C8&M=1" H 2650 3100 50  0001 C CNN "Segor.de"
@@ -350,14 +349,14 @@ F 3 "" H 1050 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x02_Male J?
+L Connector:Conn_01x02_Male J?
 U 1 1 5EE082AD
 P 950 4450
 AR Path="/5EE082AD" Ref="J?"  Part="1" 
 AR Path="/5EDE387A/5EE082AD" Ref="J1"  Part="1" 
 F 0 "J1" H 1058 4631 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 1058 4540 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 950 4450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 950 4450 50  0001 C CNN
 F 3 "~" H 950 4450 50  0001 C CNN
 F 4 "Batterie Connector (bevorzugt Reichelt da direkt als Kabelset!)" H 950 4450 50  0001 C CNN "Bemerkung"
 F 5 "https://www.conrad.de/de/p/bkl-electronic-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-40-10120513-1-393494.html" H 950 4450 50  0001 C CNN "Conrad"
@@ -367,7 +366,7 @@ F 7 "https://www.segor.de/#Q=SL1x40-180G%252F13%252C8&M=1" H 950 4450 50  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Polyfuse F1
+L Device:Polyfuse F1
 U 1 1 5EE15FB8
 P 1750 4450
 F 0 "F1" V 1525 4450 50  0000 C CNN
@@ -382,7 +381,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 4450 1600 4450
 $Comp
-L diode:1N5820 D2
+L Diode:1N5820 D2
 U 1 1 5EE17EBE
 P 1050 5750
 F 0 "D2" V 1004 5829 50  0000 L CNN
@@ -433,7 +432,7 @@ Wire Notes Line
 Text Notes 700  5150 0    118  ~ 0
 Verpolschutz Battery
 $Comp
-L conn:Conn_01x02_Male J?
+L Connector:Conn_01x02_Male J?
 U 1 1 5EED3385
 P 3000 1550
 AR Path="/5EED3385" Ref="J?"  Part="1" 
