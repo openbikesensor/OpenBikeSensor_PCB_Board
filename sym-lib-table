@@ -1,6 +1,0 @@
-(sym_lib_table
-  (lib (name SD_CARD)(type Legacy)(uri ${KIPRJMOD}/libs/SD_CARD.lib)(options "")(descr ""))
-  (lib (name DCDC_Converter)(type Legacy)(uri ${KIPRJMOD}/libs/DCDC_Converter.lib)(options "")(descr ""))
-  (lib (name ESP32-DEVKITC-32D)(type Legacy)(uri ${KIPRJMOD}/libs/ESP32-DEVKITC-32D/ESP32-DEVKITC-32D.lib)(options "")(descr ""))
-  (lib (name Custom_Module)(type Legacy)(uri ${KIPRJMOD}/libs/Custom_Module.lib)(options "")(descr ""))
-)
