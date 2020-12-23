@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:OpenBikeSensor_pcb-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -175,7 +174,7 @@ Connection ~ 4900 6950
 Wire Wire Line
 	4750 6550 4900 6550
 $Comp
-L conn:Conn_01x02_Male J1
+L Connector:Conn_01x02_Male J1
 U 1 1 5ED16B37
 P 5650 2800
 F 0 "J1" H 5758 2981 50  0000 C CNN
@@ -262,7 +261,7 @@ $EndComp
 Wire Wire Line
 	4900 6550 4900 6950
 $Comp
-L conn:Conn_01x04_Female J2
+L Connector:Conn_01x04_Female J2
 U 1 1 5ED25A92
 P 5750 1650
 F 0 "J2" H 5642 1935 50  0000 C CNN
@@ -399,7 +398,7 @@ Wire Wire Line
 Wire Wire Line
 	9550 2850 9700 2850
 $Comp
-L conn:Conn_01x04_Male J3
+L Connector:Conn_01x04_Male J3
 U 1 1 5ED6A6B4
 P 5850 3700
 F 0 "J3" H 5958 3981 50  0000 C CNN
@@ -410,7 +409,7 @@ F 3 "~" H 5850 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x04_Male J4
+L Connector:Conn_01x04_Male J4
 U 1 1 5ED6B21F
 P 5850 4250
 F 0 "J4" H 5958 4531 50  0000 C CNN
@@ -505,7 +504,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 3100 4150 3100
 $Comp
-L conn:Conn_01x05_Male J5
+L Connector:Conn_01x05_Male J5
 U 1 1 5ED82C02
 P 8400 4100
 F 0 "J5" H 8508 4481 50  0000 C CNN
@@ -552,7 +551,7 @@ Wire Wire Line
 Wire Wire Line
 	8800 3900 8600 3900
 $Comp
-L conn:Conn_01x02_Male J6
+L Connector:Conn_01x02_Male J6
 U 1 1 5ED902CA
 P 9950 2250
 F 0 "J6" V 9750 2200 50  0000 C CNN
@@ -563,7 +562,7 @@ F 3 "~" H 9950 2250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L conn:Conn_01x06_Male J7
+L Connector:Conn_01x06_Male J7
 U 1 1 5EDB38F7
 P 5650 5950
 F 0 "J7" H 5758 6331 50  0000 C CNN
@@ -638,7 +637,7 @@ F 3 "" H 8450 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R1
+L Device:R_Small R1
 U 1 1 5ED1D73B
 P 9450 4100
 F 0 "R1" H 9509 4146 50  0000 L CNN
@@ -682,7 +681,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 2450 10450 2450
 $Comp
-L device:R_Small R2
+L Device:R_Small R2
 U 1 1 5ED66556
 P 1450 2000
 F 0 "R2" H 1509 2046 50  0000 L CNN
@@ -693,7 +692,7 @@ F 3 "~" H 1450 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R3
+L Device:R_Small R3
 U 1 1 5ED66E45
 P 1450 2300
 F 0 "R3" H 1509 2346 50  0000 L CNN
@@ -741,7 +740,7 @@ Connection ~ 1450 2150
 Wire Wire Line
 	1450 2150 1450 2100
 $Comp
-L device:C_Small C1
+L Device:C_Small C1
 U 1 1 5ED7CAE9
 P 1250 2300
 F 0 "C1" H 1000 2350 50  0000 L CNN
@@ -763,7 +762,7 @@ Connection ~ 1450 2500
 Wire Wire Line
 	1450 2500 1450 2400
 $Comp
-L references:LM285Z-1.2 D1
+L Reference_Voltage:LM285Z-1.2 D1
 U 1 1 5EDDD286
 P 8550 5850
 F 0 "D1" V 8641 5762 50  0000 R CNN
@@ -785,7 +784,7 @@ F 3 "" H 8550 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R4
+L Device:R_Small R4
 U 1 1 5EDE0C4A
 P 8550 5500
 F 0 "R4" H 8609 5546 50  0000 L CNN
@@ -824,7 +823,7 @@ VoltRef
 Wire Wire Line
 	2200 2300 2350 2300
 $Comp
-L device:R_Small R5
+L Device:R_Small R5
 U 1 1 5EDFEA4B
 P 9000 5500
 F 0 "R5" H 9059 5546 50  0000 L CNN
@@ -836,10 +835,8 @@ F 3 "~" H 9000 5500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9000 5600 8550 5600
-Connection ~ 8550 5600
 Wire Wire Line
 	8550 5400 9000 5400
-Connection ~ 8550 5400
 Wire Notes Line
 	7900 4850 11050 4850
 Wire Notes Line
