@@ -2493,7 +2493,7 @@
       (net 6 GND))
     (pad "" np_thru_hole circle (at -4.51866 13.14958 90) (size 1.4986 1.4986) (drill 1.4986) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -25.49906 13.19784 90) (size 0.99822 0.99822) (drill 0.99822) (layers *.Cu *.Mask))
-    (model ${OPENBIKE}/SD_Card.stp
+    (model ${KIPRJMOD}/../libs/obs-ext-3d/SD_Card.stp
       (offset (xyz -2 13 0.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
