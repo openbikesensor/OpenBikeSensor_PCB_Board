@@ -1,0 +1,3 @@
+[submodule "libs/obs-ext-3d"]
+	path = libs/obs-ext-3d
+	url = https://github.com/openbikesensor/OpenBikeSensor_PCB_ext3DModels.git

@@ -1,4 +1,13 @@
+<<<<<<< HEAD
 fp-info-cache
 *.bak
 *-cache.lib
 *.sch-bak
+=======
+*-cache.lib
+*.sch-bak
+*.bak
+fp-info-cache
+*.kicad_pcb-bak
+*.net
+>>>>>>> JSN-SR04T-cleanup
