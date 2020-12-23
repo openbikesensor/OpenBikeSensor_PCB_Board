@@ -310,7 +310,7 @@
       (net 31 VP))
     (pad 1 smd rect (at -14.25 -19.76) (size 3 0.65) (layers F.Cu F.Paste F.Mask)
       (net 41 "Net-(U1-Pad1)"))
-    (model ${OPENBIKE}/ESP-WROOM32.STEP
+    (model ${KIPRJMOD}/../libs/obs-ext-3d/ESP-WROOM32.STEP
       (offset (xyz 1.54 -15 13.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 180))
@@ -453,7 +453,7 @@
       (net 6 GND))
     (pad OUT+ thru_hole circle (at -10.16 -15.875 90) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 7 +3V3))
-    (model ${OPENBIKE}/MT3608_SEPIC.step
+    (model ${KIPRJMOD}/../libs/obs-ext-3d/MT3608_SEPIC.step
       (offset (xyz -2.5 -10.8 0))
       (scale (xyz 0.95 1 1))
       (rotate (xyz 0 0 0))
@@ -1945,7 +1945,7 @@
     (fp_circle (center 0 0) (end 2.8 0) (layer Cmts.User) (width 0.15))
     (fp_circle (center 0 0) (end 3.05 0) (layer F.CrtYd) (width 0.05))
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
-    (model "${OPENBIKE}/hex_socket_button_head_M3x05 (1).step"
+    (model "${KIPRJMOD}/../libs/obs-ext-3d/hex_socket_button_head_M3x05 (1).step"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1969,7 +1969,7 @@
     (fp_circle (center 0 0) (end 2.8 0) (layer Cmts.User) (width 0.15))
     (fp_circle (center 0 0) (end 3.05 0) (layer F.CrtYd) (width 0.05))
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
-    (model "${OPENBIKE}/hex_socket_button_head_M3x05 (1).step"
+    (model "${KIPRJMOD}/../libs/obs-ext-3d/hex_socket_button_head_M3x05 (1).step"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1993,7 +1993,7 @@
     (fp_circle (center 0 0) (end 2.8 0) (layer Cmts.User) (width 0.15))
     (fp_circle (center 0 0) (end 3.05 0) (layer F.CrtYd) (width 0.05))
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
-    (model "${OPENBIKE}/hex_socket_button_head_M3x05 (1).step"
+    (model "${KIPRJMOD}/../libs/obs-ext-3d/hex_socket_button_head_M3x05 (1).step"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2042,7 +2042,7 @@
       (net 6 GND))
     (pad "" np_thru_hole circle (at -4.51866 13.14958 90) (size 1.4986 1.4986) (drill 1.4986) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -25.49906 13.19784 90) (size 0.99822 0.99822) (drill 0.99822) (layers *.Cu *.Mask))
-    (model ${OPENBIKE}/SD_Card.stp
+    (model ${KIPRJMOD}/../libs/obs-ext-3d/SD_Card.stp
       (offset (xyz -2 13 0.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -2146,7 +2146,7 @@
       (net 34 "Net-(M1-PadIN-)"))
     (pad IN+ thru_hole rect (at -12.065 6.985) (size 2.5 2.5) (drill 1.2) (layers *.Cu *.Mask)
       (net 35 "Net-(M1-PadIN+)"))
-    (model "${OPENBIKE}/tp4056 micro usb 18650 charger v3.step"
+    (model "${KIPRJMOD}/../libs/obs-ext-3d/tp4056 micro usb 18650 charger v3.step"
       (offset (xyz -0.5 -0.3 -10.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -2191,7 +2191,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${OPENBIKE}/User Library-2510-2pin_step.STEP"
+    (model "${KIPRJMOD}/../libs/obs-ext-3d/User Library-2510-2pin_step.STEP"
       (offset (xyz 0 1.4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 90))
@@ -2418,7 +2418,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${OPENBIKE}/Product_TF Micro SD Card Memory Modul Arduino_shrink.step"
+    (model "${KIPRJMOD}/../libs/obs-ext-3d/Product_TF Micro SD Card Memory Modul Arduino_shrink.step"
       (offset (xyz 2.55 -6.3 50))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 -90))

@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:OpenBikeSensor_pcb_flippedPower_b-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -266,7 +265,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 3700 2400 3700
 $Comp
-L conn:Conn_01x02_Male J?
+L Connector:Conn_01x02_Male J?
 U 1 1 5EDFEA52
 P 2650 3100
 AR Path="/5EDFEA52" Ref="J?"  Part="1" 
@@ -350,7 +349,7 @@ F 3 "" H 1050 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x02_Male J?
+L Connector:Conn_01x02_Male J?
 U 1 1 5EE082AD
 P 950 4450
 AR Path="/5EE082AD" Ref="J?"  Part="1" 
@@ -367,7 +366,7 @@ F 7 "https://www.segor.de/#Q=SL1x40-180G%252F13%252C8&M=1" H 950 4450 50  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Polyfuse F1
+L Device:Polyfuse F1
 U 1 1 5EE15FB8
 P 1750 4450
 F 0 "F1" V 1525 4450 50  0000 C CNN
@@ -382,7 +381,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 4450 1600 4450
 $Comp
-L diode:1N5820 D2
+L Diode:1N5820 D2
 U 1 1 5EE17EBE
 P 1050 5750
 F 0 "D2" V 1004 5829 50  0000 L CNN
@@ -433,7 +432,7 @@ Wire Notes Line
 Text Notes 700  5150 0    118  ~ 0
 Verpolschutz Battery
 $Comp
-L conn:Conn_01x02_Male J?
+L Connector:Conn_01x02_Male J?
 U 1 1 5EED3385
 P 3000 1550
 AR Path="/5EED3385" Ref="J?"  Part="1" 
