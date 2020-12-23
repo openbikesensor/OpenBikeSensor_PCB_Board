@@ -3,3 +3,4 @@
 *.bak
 fp-info-cache
 *.kicad_pcb-bak
+*.net

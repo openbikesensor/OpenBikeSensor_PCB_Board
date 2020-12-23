@@ -30,7 +30,7 @@ F 9 "--" H 1900 6400 50  0001 C CNN "Segor.de"
 F 10 "--" H 1900 6400 50  0001 C CNN "ebay"
 F 11 "" H 1900 6400 50  0001 C CNN "Bem"
 	1    1900 6400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	2500 7200 2600 7200
@@ -57,7 +57,7 @@ F 1 "GND" H 2605 7077 50  0000 C CNN
 F 2 "" H 2600 7250 50  0001 C CNN
 F 3 "" H 2600 7250 50  0001 C CNN
 	1    2600 7250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR0102
@@ -68,7 +68,7 @@ F 1 "GND" V 4155 3072 50  0000 R CNN
 F 2 "" H 4150 3200 50  0001 C CNN
 F 3 "" H 4150 3200 50  0001 C CNN
 	1    4150 3200
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
 	2600 7200 2600 7250
@@ -84,7 +84,7 @@ F 1 "+3.3V" V 4165 3428 50  0000 L CNN
 F 2 "" H 4150 3300 50  0001 C CNN
 F 3 "" H 4150 3300 50  0001 C CNN
 	1    4150 3300
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:+3.3V #PWR0104
@@ -95,7 +95,7 @@ F 1 "+3.3V" H 2665 6473 50  0000 C CNN
 F 2 "" H 2650 6300 50  0001 C CNN
 F 3 "" H 2650 6300 50  0001 C CNN
 	1    2650 6300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	1150 5900 1300 5900
@@ -144,7 +144,7 @@ F 1 "+3.3V" H 4965 6423 50  0000 C CNN
 F 2 "" H 4950 6250 50  0001 C CNN
 F 3 "" H 4950 6250 50  0001 C CNN
 	1    4950 6250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR0106
@@ -155,7 +155,7 @@ F 1 "GND" H 4905 7027 50  0000 C CNN
 F 2 "" H 4900 7200 50  0001 C CNN
 F 3 "" H 4900 7200 50  0001 C CNN
 	1    4900 7200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	3350 5850 3550 5850
@@ -197,7 +197,7 @@ F 8 "--" H 4150 5500 50  0001 C CNN "Reichelt"
 F 9 "--" H 4150 5500 50  0001 C CNN "Segor.de"
 F 10 "--" H 4150 5500 50  0001 C CNN "ebay"
 	1    4150 5500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	4900 6550 4900 6950
@@ -214,7 +214,7 @@ F 5 "https://www.conrad.de/de/p/tru-components-stiftleiste-standard-anzahl-reihe
 F 6 "https://www.reichelt.de/36pol-stiftleiste-gewinkelt-rm-2-54-sl-1x36w-2-54-p19505.html?&trstct=pos_1&nbc=1" H 5800 1200 50  0001 C CNN "Reichelt"
 F 7 "https://www.segor.de/#Q=SL1x40-90G&M=1" H 5800 1200 50  0001 C CNN "Segor.de"
 	1    5800 1200
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L power:+3.3V #PWR07
@@ -225,7 +225,7 @@ F 1 "+3.3V" H 6215 1173 50  0000 C CNN
 F 2 "" H 6200 1000 50  0001 C CNN
 F 3 "" H 6200 1000 50  0001 C CNN
 	1    6200 1000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	6200 1300 6000 1300
@@ -257,7 +257,7 @@ F 6 "2x  https://www.reichelt.de/buchsenleisten-2-54-mm-1x16-gerade-mpe-094-1-01
 F 7 "https://www.segor.de/#Q=FL1x20-180G(h%253D5%252C7mm)&M=1   und Beinchen wechselseitig umbiegen. Nur im Notfall!" H 3100 1600 50  0001 C CNN "Segor.de"
 F 8 "https://www.ebay.de/itm/10-pcs-SMD-Buchsenleiste-1x-16-polig-RM-2-54mm-NEU-BP/231930033721?hash=item36001b7639:g:5Q4AAOSwofxUgJJ7" H 3100 1600 50  0001 C CNN "ebay"
 	1    3100 1600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	4200 1900 3950 1900
@@ -289,7 +289,7 @@ F 6 "https://de.aliexpress.com/item/32218396409.html" H 5850 2400 50  0001 C CNN
 F 7 "https://www.segor.de/#Q=SL1x40-180G%252F13%252C8&M=1" H 5850 2400 50  0001 C CNN "Segor.de"
 F 8 "https://www.reichelt.de/40pol-stiftleiste-gerade-rm-2-54-sl-1x40g-2-54-p19506.html" H 5850 2400 50  0001 C CNN "Reichelt"
 	1    5850 2400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Connector:Conn_01x04_Male J4
@@ -305,7 +305,7 @@ F 6 "https://www.segor.de/#Q=SL1x40-180G%252F13%252C8&M=1" H 5850 2950 50  0001 
 F 7 "https://www.reichelt.de/40pol-stiftleiste-gerade-rm-2-54-sl-1x40g-2-54-p19506.html" H 5850 2950 50  0001 C CNN "Reichelt"
 F 8 "https://www.conrad.de/de/p/bkl-electronic-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-40-10120513-1-393494.html" H 5850 2950 50  0001 C CNN "Conrad"
 	1    5850 2950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+3.3V #PWR012
@@ -316,7 +316,7 @@ F 1 "+3.3V" V 6250 2550 50  0000 C CNN
 F 2 "" H 6250 2300 50  0001 C CNN
 F 3 "" H 6250 2300 50  0001 C CNN
 	1    6250 2300
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:+3.3V #PWR014
@@ -327,7 +327,7 @@ F 1 "+3.3V" V 6250 3100 50  0000 C CNN
 F 2 "" H 6250 2850 50  0001 C CNN
 F 3 "" H 6250 2850 50  0001 C CNN
 	1    6250 2850
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR015
@@ -338,7 +338,7 @@ F 1 "GND" V 6250 2950 50  0000 C CNN
 F 2 "" H 6250 3150 50  0001 C CNN
 F 3 "" H 6250 3150 50  0001 C CNN
 	1    6250 3150
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR013
@@ -349,7 +349,7 @@ F 1 "GND" V 6250 2400 50  0000 C CNN
 F 2 "" H 6250 2600 50  0001 C CNN
 F 3 "" H 6250 2600 50  0001 C CNN
 	1    6250 2600
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Text GLabel 6250 2400 2    50   Input ~ 0
 TRIG1
@@ -404,7 +404,7 @@ F 5 "https://www.segor.de/#Q=SL1x40-180G%252F13%252C8&M=1" H 8200 3050 50  0001 
 F 6 "https://www.reichelt.de/40pol-stiftleiste-gerade-rm-2-54-sl-1x40g-2-54-p19506.html" H 8200 3050 50  0001 C CNN "Reichelt"
 F 7 "https://www.conrad.de/de/p/bkl-electronic-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-40-10120513-1-393494.html" H 8200 3050 50  0001 C CNN "Conrad"
 	1    8200 3050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+3.3V #PWR016
@@ -415,7 +415,7 @@ F 1 "+3.3V" V 8600 3100 50  0000 C CNN
 F 2 "" H 8600 2850 50  0001 C CNN
 F 3 "" H 8600 2850 50  0001 C CNN
 	1    8600 2850
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR017
@@ -426,7 +426,7 @@ F 1 "GND" V 8600 2950 50  0000 C CNN
 F 2 "" H 8600 3150 50  0001 C CNN
 F 3 "" H 8600 3150 50  0001 C CNN
 	1    8600 3150
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Text GLabel 8600 3250 2    50   Input ~ 0
 SDA
@@ -457,7 +457,7 @@ F 7 "https://www.conrad.de/de/p/tru-components-stiftleiste-standard-anzahl-reihe
 F 8 "https://www.reichelt.de/36pol-stiftleiste-gewinkelt-rm-2-54-sl-1x36w-2-54-p19505.html?&trstct=pos_1&nbc=1" H 5650 5950 50  0001 C CNN "Reichelt"
 F 9 "https://www.segor.de/#Q=SL1x40-90G&M=1" H 5650 5950 50  0001 C CNN "Segor.de"
 	1    5650 5950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR018
@@ -468,7 +468,7 @@ F 1 "GND" H 6005 6077 50  0000 C CNN
 F 2 "" H 6000 6250 50  0001 C CNN
 F 3 "" H 6000 6250 50  0001 C CNN
 	1    6000 6250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+3.3V #PWR019
@@ -479,7 +479,7 @@ F 1 "+3.3V" V 6100 6000 50  0000 C CNN
 F 2 "" H 6100 5750 50  0001 C CNN
 F 3 "" H 6100 5750 50  0001 C CNN
 	1    6100 5750
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Text GLabel 6100 5850 2    50   Input ~ 0
 SD_CD
@@ -512,7 +512,7 @@ F 3 "~" H 9250 3050 50  0001 C CNN
 F 4 "https://www.segor.de/#Q=MF10k-1%2525&M=1" H 9250 3050 50  0001 C CNN "Segor.de"
 F 5 "https://www.reichelt.de/widerstand-kohleschicht-10-kohm-0207-250-mw-5-1-4w-10k-p1338.html?r=1" H 9250 3050 50  0001 C CNN "Reichelt"
 	1    9250 3050
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Wire Wire Line
 	9250 3250 9250 3150
@@ -537,7 +537,7 @@ F 1 "GND" H 9255 3077 50  0000 C CNN
 F 2 "" H 9250 3250 50  0001 C CNN
 F 3 "" H 9250 3250 50  0001 C CNN
 	1    9250 3250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:R_Small R2
@@ -550,7 +550,7 @@ F 3 "~" H 1450 2000 50  0001 C CNN
 F 4 "https://www.segor.de/#Q=MF5M6-1%2525&M=1" H 1450 2000 50  0001 C CNN "Segor.de"
 F 5 "https://www.reichelt.de/widerstand-metallschicht-1-0-mohm-0207-250-mw-0-1-arc-mra0207-1m-b-p237509.html" H 1450 2000 50  0001 C CNN "Reichelt"
 	1    1450 2000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:R_Small R3
@@ -563,7 +563,7 @@ F 3 "~" H 1450 2300 50  0001 C CNN
 F 4 "2x https://www.segor.de/#Q=MF5M6-1%2525&M=1" H 1450 2300 50  0001 C CNN "Segor.de"
 F 5 "2x https://www.reichelt.de/widerstand-metallschicht-1-0-mohm-0207-250-mw-0-1-arc-mra0207-1m-b-p237509.html" H 1450 2300 50  0001 C CNN "Reichelt"
 	1    1450 2300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	1450 1750 1450 1900
@@ -580,7 +580,7 @@ F 1 "GND" H 1455 2377 50  0000 C CNN
 F 2 "" H 1450 2550 50  0001 C CNN
 F 3 "" H 1450 2550 50  0001 C CNN
 	1    1450 2550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+VDC #PWR03
@@ -591,7 +591,7 @@ F 1 "+VDC" H 1450 2025 50  0000 C CNN
 F 2 "" H 1450 1750 50  0001 C CNN
 F 3 "" H 1450 1750 50  0001 C CNN
 	1    1450 1750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	1450 2150 2250 2150
@@ -616,7 +616,7 @@ F 6 "https://www.conrad.de/de/p/tancap-ct4-0805y104m500c1t-keramik-kondensator-t
 F 7 "--" H 1250 2300 50  0001 C CNN "ebay"
 F 8 "https://www.segor.de/#Q=u10-R2.5-X7R&M=1" H 1250 2300 50  0001 C CNN "Segor.de"
 	1    1250 2300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	1250 2200 1250 2150
@@ -638,7 +638,7 @@ F 1 "GND" H 8855 5977 50  0000 C CNN
 F 2 "" H 8850 6150 50  0001 C CNN
 F 3 "" H 8850 6150 50  0001 C CNN
 	1    8850 6150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	8850 6150 8850 6050
@@ -713,9 +713,9 @@ Connector GPS NEO6M
 Text Notes 5600 1600 0    59   ~ 0
 gewinkelte Stiftleiste verwenden!
 Wire Notes Line
-	5400 1750 5400 550 
+	5400 1750 5400 550
 Wire Notes Line
-	5400 550  7600 550 
+	5400 550  7600 550
 Wire Notes Line
 	7600 550  7600 1750
 Wire Notes Line
@@ -740,7 +740,7 @@ F 6 "https://www.reichelt.de/40pol-stiftleiste-gerade-rm-2-54-sl-1x40g-2-54-p195
 F 7 "https://www.conrad.de/de/p/bkl-electronic-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-40-10120513-1-393494.html" H 8000 1550 50  0001 C CNN "Conrad"
 F 8 "Zusatz Connector 1" H 8000 1550 50  0001 C CNN "Bemerkung"
 	1    8000 1550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Connector:Conn_01x06_Male J9
@@ -756,7 +756,7 @@ F 6 "https://www.reichelt.de/40pol-stiftleiste-gerade-rm-2-54-sl-1x40g-2-54-p195
 F 7 "https://www.conrad.de/de/p/bkl-electronic-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-40-10120513-1-393494.html" H 9900 1550 50  0001 C CNN "Conrad"
 F 8 "Zusatz Connector 2" H 9900 1550 50  0001 C CNN "Bemerkung"
 	1    9900 1550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+3.3V #PWR023
@@ -767,7 +767,7 @@ F 1 "+3.3V" V 8400 1600 50  0000 C CNN
 F 2 "" H 8400 1350 50  0001 C CNN
 F 3 "" H 8400 1350 50  0001 C CNN
 	1    8400 1350
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR024
@@ -778,7 +778,7 @@ F 1 "GND" V 8400 1250 50  0000 C CNN
 F 2 "" H 8400 1450 50  0001 C CNN
 F 3 "" H 8400 1450 50  0001 C CNN
 	1    8400 1450
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Text GLabel 8400 1650 2    50   Input ~ 0
 SDA
@@ -793,7 +793,7 @@ F 1 "+3.3V" V 10300 1600 50  0000 C CNN
 F 2 "" H 10300 1350 50  0001 C CNN
 F 3 "" H 10300 1350 50  0001 C CNN
 	1    10300 1350
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR026
@@ -804,7 +804,7 @@ F 1 "GND" V 10300 1250 50  0000 C CNN
 F 2 "" H 10300 1450 50  0001 C CNN
 F 3 "" H 10300 1450 50  0001 C CNN
 	1    10300 1450
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Text GLabel 10300 1650 2    50   Input ~ 0
 SDA
@@ -863,9 +863,9 @@ Wire Notes Line
 Wire Notes Line
 	7750 2000 11050 2000
 Wire Notes Line
-	11050 2000 11050 550 
+	11050 2000 11050 550
 Wire Notes Line
-	11050 550  7750 550 
+	11050 550  7750 550
 Text Notes 7850 750  0    118  ~ 0
 Connector optical sensors
 Wire Notes Line
@@ -899,7 +899,7 @@ F 7 "https://www.segor.de/#Q=ELRA22u-16%252F4x7&M=1" H 5050 6400 50  0001 C CNN 
 F 8 "--" H 5050 6400 50  0001 C CNN "ebay"
 F 9 "https://www.conrad.de/de/p/teapo-kss226m016s1a5b07k-elektrolyt-kondensator-radial-bedrahtet-1-5-mm-22-f-16-v-20-x-h-4-mm-x-7-mm-1-1325867.html" H 5050 6400 50  0001 C CNN "Conrad"
 	1    5050 6400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:CP_Small C3
@@ -916,7 +916,7 @@ F 7 "https://www.segor.de/#Q=ELRA22u-16%252F4x7&M=1" H 4900 6400 50  0001 C CNN 
 F 8 "--" H 4900 6400 50  0001 C CNN "ebay"
 F 9 "https://www.conrad.de/de/p/teapo-kss226m016s1a5b07k-elektrolyt-kondensator-radial-bedrahtet-1-5-mm-22-f-16-v-20-x-h-4-mm-x-7-mm-1-1325867.html" H 4900 6400 50  0001 C CNN "Conrad"
 	1    4900 6400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:R_Small R6
@@ -928,7 +928,7 @@ F 2 "Resistors_SMD:R_0805_HandSoldering" H 9700 3050 50  0001 C CNN
 F 3 "~" H 9700 3050 50  0001 C CNN
 F 4 "" H 9700 3050 50  0001 C CNN "Optional"
 	1    9700 3050
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L Device:R_Small R7
@@ -940,7 +940,7 @@ F 2 "Resistors_SMD:R_0805_HandSoldering" H 10050 3050 50  0001 C CNN
 F 3 "~" H 10050 3050 50  0001 C CNN
 F 4 "" H 10050 3050 50  0001 C CNN "Optional"
 	1    10050 3050
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L power:+3.3V #PWR01
@@ -951,7 +951,7 @@ F 1 "+3.3V" V 9700 3050 50  0000 C CNN
 F 2 "" H 9700 2800 50  0001 C CNN
 F 3 "" H 9700 2800 50  0001 C CNN
 	1    9700 2800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+3.3V #PWR02
@@ -962,7 +962,7 @@ F 1 "+3.3V" V 10050 3050 50  0000 C CNN
 F 2 "" H 10050 2800 50  0001 C CNN
 F 3 "" H 10050 2800 50  0001 C CNN
 	1    10050 2800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text GLabel 9700 3300 3    50   Input ~ 0
 SDA
@@ -985,7 +985,7 @@ F 1 "+3.3V" V 6200 1750 50  0000 C CNN
 F 2 "" H 6200 1400 50  0001 C CNN
 F 3 "" H 6200 1400 50  0001 C CNN
 	1    6200 1400
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	6200 1400 6000 1400
@@ -1022,10 +1022,10 @@ Wire Wire Line
 Wire Wire Line
 	6000 4300 6150 4300
 $Sheet
-S 7800 3950 2450 650 
+S 7800 3950 2450 650
 U 5EDE387A
 F0 "PowerPart" 118
-F1 "OpenBikeSensor_PowerPart.sch" 118
+F1 "OpenBikeSensor03_PowerPart.sch" 118
 $EndSheet
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J10
@@ -1036,7 +1036,7 @@ F 1 "Conn_02x03_Odd_Even" H 6500 4526 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 6450 4300 50  0001 C CNN
 F 3 "~" H 6450 4300 50  0001 C CNN
 	1    6450 4300
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 Text GLabel 2200 2100 0    39   Input ~ 0
 VN
@@ -1063,7 +1063,7 @@ F 1 "BS170" H 8956 5805 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8950 5775 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 8750 5850 50  0001 L CNN
 	1    8750 5850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	8450 5850 8550 5850
