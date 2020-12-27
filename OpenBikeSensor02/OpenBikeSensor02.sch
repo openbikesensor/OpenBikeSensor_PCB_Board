@@ -883,7 +883,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 6300 4900 6300
 $Comp
-L Device:CP_Small C2
+L Device:C_Polarized_Small C2
 U 1 1 5EE2E44B
 P 5050 6400
 F 0 "C2" H 5138 6446 50  0000 L CNN
@@ -900,7 +900,7 @@ F 9 "https://www.conrad.de/de/p/teapo-kss226m016s1a5b07k-elektrolyt-kondensator-
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C3
+L Device:C_Polarized_Small C3
 U 1 1 5EE2EDDD
 P 4900 6400
 F 0 "C3" H 4650 6450 50  0000 L CNN
