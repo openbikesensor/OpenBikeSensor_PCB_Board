@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.2)
     (user_trace_width 0.5)
     (user_trace_width 0.6)
@@ -1967,8 +1967,8 @@
       (xy -4.0132 -2.0828) (xy -4.0132 -3.713967) (xy -3.7719 -3.698484)) (layer F.SilkS) (width 0.01))
   )
 
-  (module Custom_logo:BB_8x6 (layer B.Cu) (tedit 0) (tstamp 5EE61BEF)
-    (at 72.009 102.362 90)
+  (module Custom_logo:BB_8x6 (layer B.Cu) (tedit 0) (tstamp 5FEA9E51)
+    (at 72.009 102.3493 270)
     (fp_text reference G*** (at 0 0 90) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
@@ -3448,10 +3448,10 @@
   (gr_text "+3V3\n\nTRIG\n\nECHO\n\nGND\n" (at 78.105 85.979) (layer F.SilkS) (tstamp 5F3D530B)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
-  (gr_text "Rev 00.03.10" (at 71.628 86.106 90) (layer B.SilkS)
+  (gr_text "Rev 00.03.11" (at 71.628 86.106 90) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify mirror))
   )
-  (gr_text "Rev 00.03.10\n" (at 84.074 62.865 90) (layer F.SilkS)
+  (gr_text "Rev 00.03.11\n" (at 84.074 62.865 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.2)))
   )
   (gr_text GND (at 26.416 76.708) (layer F.SilkS) (tstamp 5EE4F781)
