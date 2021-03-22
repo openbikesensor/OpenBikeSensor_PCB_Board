@@ -3,4 +3,5 @@
   (lib (name HLRS_Logo)(type KiCad)(uri ${KIPRJMOD}/../libs/HLRS_Logo.pretty)(options "")(descr ""))
   (lib (name Custom_Modules)(type KiCad)(uri ${KIPRJMOD}/../libs/Custom_Modules.pretty)(options "")(descr ""))
   (lib (name obs-ext-3d)(type KiCad)(uri ${KIPRJMOD}/../libs/obs-ext-3d)(options "")(descr ""))
+  (lib (name ESP32-DEVKITC-32D)(type KiCad)(uri ${KIPRJMOD}/../libs/ESP32-DEVKITC-32D)(options "")(descr ""))
 )

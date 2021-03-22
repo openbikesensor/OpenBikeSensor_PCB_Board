@@ -632,17 +632,17 @@ Wire Wire Line
 $Comp
 L power:GND #PWR022
 U 1 1 5EDDFE5E
-P 8850 6150
-F 0 "#PWR022" H 8850 5900 50  0001 C CNN
-F 1 "GND" H 8855 5977 50  0000 C CNN
-F 2 "" H 8850 6150 50  0001 C CNN
-F 3 "" H 8850 6150 50  0001 C CNN
-	1    8850 6150
+P 8400 6150
+F 0 "#PWR022" H 8400 5900 50  0001 C CNN
+F 1 "GND" H 8405 5977 50  0000 C CNN
+F 2 "" H 8400 6150 50  0001 C CNN
+F 3 "" H 8400 6150 50  0001 C CNN
+	1    8400 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8850 6150 8850 6050
-Text GLabel 8450 5850 0    50   Input ~ 0
+	8400 6150 8400 6050
+Text GLabel 8000 5850 1    50   Input ~ 0
 GPS_GND_CONT
 Text GLabel 2250 3000 0    50   Input ~ 0
 GPS_GND_CONT
@@ -658,7 +658,7 @@ Wire Notes Line
 	7900 6400 7900 4850
 Text Notes 7950 5100 0    157  ~ 0
 Voltage Referenz 1V2\n
-Text Notes 9400 5800 0    50   ~ 0
+Text Notes 9400 5650 0    50   ~ 0
 R4 bestücken für THT\nR5 bestücken für 1206 SMD\nnur eins von beidem bestücken!\nbevorzugt R5. \nR4 ist schlecht platziert. Beinchen kürzen\nund Lötstellen plan zum PCB löten
 Wire Notes Line
 	650  7600 6700 7600
@@ -885,10 +885,10 @@ Wire Wire Line
 Wire Wire Line
 	5050 6300 4900 6300
 $Comp
-L Device:C_Polarized_Small e
+L Device:C_Polarized_Small e1
 U 1 1 5EE2E44B
 P 5050 6400
-F 0 "e" H 5138 6446 50  0000 L CNN
+F 0 "e1" H 5138 6446 50  0000 L CNN
 F 1 "22u" H 5138 6355 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 5050 6400 50  0001 C CNN
 F 3 "~" H 5050 6400 50  0001 C CNN
@@ -1057,20 +1057,52 @@ VP
 $Comp
 L Transistor_FET:BS170 Q1
 U 1 1 5F24A00D
-P 8750 5850
-F 0 "Q1" H 8956 5896 50  0000 L CNN
-F 1 "BS170" H 8956 5805 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8950 5775 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 8750 5850 50  0001 L CNN
-	1    8750 5850
+P 8300 5850
+F 0 "Q1" H 8506 5896 50  0000 L CNN
+F 1 "BS170" H 8506 5805 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8500 5775 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 8300 5850 50  0001 L CNN
+	1    8300 5850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8450 5850 8550 5850
-Text GLabel 8850 5600 1    59   Input ~ 0
+	8000 5850 8100 5850
+Text GLabel 8400 5600 1    59   Input ~ 0
 GPS_GND
 Wire Wire Line
-	8850 5600 8850 5650
+	8400 5600 8400 5650
 Text GLabel 6200 1300 2    59   Input ~ 0
 GPS_GND
+$Comp
+L power:GND #PWR0125
+U 1 1 60470523
+P 9200 6150
+F 0 "#PWR0125" H 9200 5900 50  0001 C CNN
+F 1 "GND" H 9205 5977 50  0000 C CNN
+F 2 "" H 9200 6150 50  0001 C CNN
+F 3 "" H 9200 6150 50  0001 C CNN
+	1    9200 6150
+	1    0    0    -1  
+$EndComp
+Text GLabel 9200 5550 1    59   Input ~ 0
+GPS_GND
+Text GLabel 8900 5750 1    50   Input ~ 0
+GPS_GND_CONT
+Wire Wire Line
+	8900 5750 8900 5850
+Wire Wire Line
+	9200 6050 9200 6150
+Wire Wire Line
+	9200 5650 9200 5550
+$Comp
+L Transistor_FET:IRLML2060 Q2
+U 1 1 60493275
+P 9100 5850
+F 0 "Q2" H 9306 5896 50  0000 L CNN
+F 1 "IRLML2060" H 9306 5805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9300 5775 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee" H 9100 5850 50  0001 L CNN
+	1    9100 5850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
