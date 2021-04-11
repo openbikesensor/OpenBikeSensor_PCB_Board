@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:OpenBikeSensor03-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -642,8 +643,6 @@ F 3 "" H 8400 6150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8400 6150 8400 6050
-Text GLabel 8000 5850 1    50   Input ~ 0
-GPS_GND_CONT
 Text GLabel 2250 3000 0    50   Input ~ 0
 GPS_GND_CONT
 Wire Wire Line
@@ -924,7 +923,7 @@ U 1 1 5EDA6EB5
 P 9700 3050
 F 0 "R6" H 9759 3096 50  0000 L CNN
 F 1 "1k2" H 9759 3005 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 9700 3050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0815_2038Metric_Pad1.53x4.00mm_HandSolder" H 9700 3050 50  0001 C CNN
 F 3 "~" H 9700 3050 50  0001 C CNN
 F 4 "" H 9700 3050 50  0001 C CNN "Optional"
 	1    9700 3050
@@ -936,7 +935,7 @@ U 1 1 5EDA73A1
 P 10050 3050
 F 0 "R7" H 10109 3096 50  0000 L CNN
 F 1 "1k2" H 10109 3005 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 10050 3050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0815_2038Metric_Pad1.53x4.00mm_HandSolder" H 10050 3050 50  0001 C CNN
 F 3 "~" H 10050 3050 50  0001 C CNN
 F 4 "" H 10050 3050 50  0001 C CNN "Optional"
 	1    10050 3050
@@ -969,13 +968,13 @@ SDA
 Text GLabel 10050 3300 3    50   Input ~ 0
 SCL
 Wire Wire Line
-	9700 3150 9700 3300
+	9700 3150 9700 3200
 Wire Wire Line
-	10050 3150 10050 3300
+	10050 3150 10050 3200
 Wire Wire Line
-	10050 2950 10050 2800
+	10050 2950 10050 2900
 Wire Wire Line
-	9700 2950 9700 2800
+	9700 2950 9700 2900
 $Comp
 L power:+3.3V #PWR0122
 U 1 1 5EDCBF76
@@ -1054,19 +1053,6 @@ Wire Wire Line
 	6650 4200 6800 4200
 Text GLabel 6800 4200 2    39   Input ~ 0
 VP
-$Comp
-L Transistor_FET:BS170 Q1
-U 1 1 5F24A00D
-P 8300 5850
-F 0 "Q1" H 8506 5896 50  0000 L CNN
-F 1 "BS170" H 8506 5805 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8500 5775 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 8300 5850 50  0001 L CNN
-	1    8300 5850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8000 5850 8100 5850
 Text GLabel 8400 5600 1    59   Input ~ 0
 GPS_GND
 Wire Wire Line
@@ -1105,4 +1091,67 @@ F 3 "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535
 	1    9100 5850
 	1    0    0    -1  
 $EndComp
+$Comp
+L Jumper:Jumper_2_Bridged JP1
+U 1 1 605C5CD4
+P 8400 5850
+F 0 "JP1" V 8400 5750 50  0000 R CNN
+F 1 "Jumper_2_Bridged" H 8700 6050 50  0000 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8400 5850 50  0001 C CNN
+F 3 "~" H 8400 5850 50  0001 C CNN
+	1    8400 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 6062891D
+P 9800 3050
+F 0 "R4" H 9750 3250 50  0000 L CNN
+F 1 "1k2" H 9750 2850 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 9800 3050 50  0001 C CNN
+F 3 "~" H 9800 3050 50  0001 C CNN
+F 4 "" H 9800 3050 50  0001 C CNN "Optional"
+	1    9800 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 60628C88
+P 10150 3050
+F 0 "R5" H 10000 3100 50  0000 L CNN
+F 1 "1k2" H 9950 3000 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 10150 3050 50  0001 C CNN
+F 3 "~" H 10150 3050 50  0001 C CNN
+F 4 "" H 10150 3050 50  0001 C CNN "Optional"
+	1    10150 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9800 3150 9800 3200
+Wire Wire Line
+	9800 3200 9700 3200
+Connection ~ 9700 3200
+Wire Wire Line
+	9700 3200 9700 3300
+Wire Wire Line
+	9800 2950 9800 2900
+Wire Wire Line
+	9800 2900 9700 2900
+Connection ~ 9700 2900
+Wire Wire Line
+	9700 2900 9700 2800
+Wire Wire Line
+	10150 2950 10150 2900
+Wire Wire Line
+	10150 2900 10050 2900
+Connection ~ 10050 2900
+Wire Wire Line
+	10050 2900 10050 2800
+Wire Wire Line
+	10050 3200 10150 3200
+Wire Wire Line
+	10150 3200 10150 3150
+Connection ~ 10050 3200
+Wire Wire Line
+	10050 3200 10050 3300
 $EndSCHEMATC

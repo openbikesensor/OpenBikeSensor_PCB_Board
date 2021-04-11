@@ -1,4 +1,4 @@
-update=25.01.2021 20:58:02
+update=22.03.2021 20:48:08
 version=1
 last_client=kicad
 [general]
@@ -12,10 +12,20 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=generated/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=118
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=OpenBikeSensor_pcb_flippedPower_b.net
+LastNetListRead=OpenBikeSensor03.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -34,6 +44,7 @@ TrackWidth3=0.5
 TrackWidth4=0.6
 TrackWidth5=0.75
 TrackWidth6=1
+TrackWidth7=1.5
 ViaDiameter1=0.8
 ViaDrill1=0.4
 ViaDiameter2=1.2
@@ -64,7 +75,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -243,13 +254,3 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=generated/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=118
-ERC_TestSimilarLabels=1
