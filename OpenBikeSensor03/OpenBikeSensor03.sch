@@ -444,14 +444,14 @@ Wire Wire Line
 Wire Wire Line
 	8600 2850 8400 2850
 $Comp
-L Connector:Conn_01x05_Male J7
+L Connector:Conn_01x06_Male J7
 U 1 1 5EDB38F7
 P 5650 5950
 F 0 "J7" H 5758 6331 50  0000 C CNN
 F 1 "Conn_01x06_Male" H 5758 6240 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5650 5950 50  0001 C CNN
 F 3 "~" H 5650 5950 50  0001 C CNN
-F 4 "https://de.aliexpress.com/item/32899722811.html" H 5650 5950 50  0001 C CNN "Aliexpress"
+F 4 "https://de.aliexpress.com/item/32899722811.html" H 5700 6750 50  0001 C CNN "Aliexpress"
 F 5 "Micro SD Adapter (Connector via Conrad/reichelt/segor)" H 5650 5950 50  0001 C CNN "Bemerkung"
 F 6 "https://www.ebay.de/itm/Micro-SD-Karten-SD-Card-Modul-SPI-fur-Breadboard-Arduino-Raspberry-Pi/333618265671 --- https://www.ebay.de/itm/TF-Card-for-Micro-SD-Card-Read-Write-Module-for-D1-Mini-Extended-Learning-Board/153577116741  (Option 3- 6Pin Board)" H 5650 5950 50  0001 C CNN "ebay"
 F 7 "https://www.conrad.de/de/p/tru-components-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-34-tc-8559760-1-2139940.html" H 5650 5950 50  0001 C CNN "Conrad"
