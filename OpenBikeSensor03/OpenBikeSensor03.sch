@@ -656,9 +656,9 @@ Wire Notes Line
 Wire Notes Line
 	7900 6400 7900 4850
 Text Notes 7950 5100 0    157  ~ 0
-Voltage Referenz 1V2\n
+Schalter für GPS
 Text Notes 9400 5650 0    50   ~ 0
-R4 bestücken für THT\nR5 bestücken für 1206 SMD\nnur eins von beidem bestücken!\nbevorzugt R5. \nR4 ist schlecht platziert. Beinchen kürzen\nund Lötstellen plan zum PCB löten
+Q2 ist optional. Wenn Funktion nicht\ngewollt, dann einfach JP1\nmit etwas Lötzinn brücken
 Wire Notes Line
 	650  7600 6700 7600
 Wire Notes Line
@@ -699,12 +699,6 @@ Wire Notes Line
 	7650 1800 7650 3500
 Wire Notes Line
 	7650 3500 5350 3500
-Wire Notes Line
-	7750 2050 10600 2050
-Wire Notes Line
-	10600 2050 10600 3700
-Wire Notes Line
-	10600 3700 7750 3700
 Wire Notes Line
 	7750 3700 7750 2050
 Text Notes 5500 750  0    118  ~ 0
@@ -884,10 +878,10 @@ Wire Wire Line
 Wire Wire Line
 	5050 6300 4900 6300
 $Comp
-L Device:C_Polarized_Small e1
+L Device:C_Polarized_Small C2
 U 1 1 5EE2E44B
 P 5050 6400
-F 0 "e1" H 5138 6446 50  0000 L CNN
+F 0 "C2" H 5138 6446 50  0000 L CNN
 F 1 "22u" H 5138 6355 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 5050 6400 50  0001 C CNN
 F 3 "~" H 5050 6400 50  0001 C CNN
@@ -1154,4 +1148,20 @@ Wire Wire Line
 Connection ~ 10050 3200
 Wire Wire Line
 	10050 3200 10050 3300
+Text Notes 10150 2800 0    55   ~ 0
+Nur einen bestücken!\n2 Widerstände um THT\nund SMD zu haben
+Wire Notes Line
+	11050 2050 11050 2600
+Wire Notes Line
+	11050 2600 11100 2600
+Wire Notes Line
+	11100 2600 11100 2750
+Wire Notes Line
+	11100 2750 11050 2750
+Wire Notes Line
+	11050 2750 11050 3700
+Wire Notes Line
+	7750 2050 11050 2050
+Wire Notes Line
+	7750 3700 11050 3700
 $EndSCHEMATC
