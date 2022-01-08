@@ -920,7 +920,7 @@ F 1 "1k2" H 9759 3005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0815_2038Metric_Pad1.53x4.00mm_HandSolder" H 9700 3050 50  0001 C CNN
 F 3 "~" H 9700 3050 50  0001 C CNN
 F 4 "" H 9700 3050 50  0001 C CNN "Optional"
-F 5 "nur entweder R4/R5 oder R6/R7 bestücken" H 9700 3050 50  0001 C CNN "Bemerkung"
+F 5 "nur entweder R4/R5 oder R6/R7 bestücken, R7 auf BoardUNTERseite." H 9700 3050 50  0001 C CNN "Bemerkung"
 	1    9700 3050
 	-1   0    0    1   
 $EndComp
@@ -933,7 +933,7 @@ F 1 "1k2" H 10109 3005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0815_2038Metric_Pad1.53x4.00mm_HandSolder" H 10050 3050 50  0001 C CNN
 F 3 "~" H 10050 3050 50  0001 C CNN
 F 4 "" H 10050 3050 50  0001 C CNN "Optional"
-F 5 "nur entweder R4/R5 oder R6/R7 bestücken" H 10050 3050 50  0001 C CNN "Bemerkung"
+F 5 "nur entweder R4/R5 oder R6/R7 bestücken, R7 auf BoardUNTERseite." H 10050 3050 50  0001 C CNN "Bemerkung"
 	1    10050 3050
 	-1   0    0    1   
 $EndComp
@@ -1107,7 +1107,7 @@ F 1 "1k2" H 9750 2850 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 9800 3050 50  0001 C CNN
 F 3 "~" H 9800 3050 50  0001 C CNN
 F 4 "" H 9800 3050 50  0001 C CNN "Optional"
-F 5 "nur entweder R4/R5 oder R6/R7 bestücken. R7 auf BoardUNTERseite!" H 9800 3050 50  0001 C CNN "Bemerkung"
+F 5 "nur entweder R4/R5 oder R6/R7 bestücken." H 9800 3050 50  0001 C CNN "Bemerkung"
 	1    9800 3050
 	-1   0    0    1   
 $EndComp
@@ -1120,7 +1120,7 @@ F 1 "1k2" H 9950 3000 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 10150 3050 50  0001 C CNN
 F 3 "~" H 10150 3050 50  0001 C CNN
 F 4 "" H 10150 3050 50  0001 C CNN "Optional"
-F 5 "nur entweder R4/R5 oder R6/R7 bestücken. R7 auf BoardUNTERseite!" H 10150 3050 50  0001 C CNN "Bemerkung"
+F 5 "nur entweder R4/R5 oder R6/R7 bestücken." H 10150 3050 50  0001 C CNN "Bemerkung"
 	1    10150 3050
 	-1   0    0    1   
 $EndComp
