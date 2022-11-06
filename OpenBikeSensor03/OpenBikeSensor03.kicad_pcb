@@ -119,7 +119,7 @@
   (net 36 "unconnected-(M2-PadIN+)")
   (net 37 "unconnected-(M2-PadIN-)")
 
-  (footprint "Custom_Modules:Resistor_Combined_THT3_SMD0805" (layer "F.Cu")
+  (footprint "OpenBikeSensor:Resistor_Combined_THT3_SMD0805" (layer "F.Cu")
     (tedit 0) (tstamp 00000000-0000-0000-0000-00005ed20ed4)
     (at 51.435 102.616)
     (property "Reichelt" "https://www.reichelt.de/widerstand-kohleschicht-10-kohm-0207-250-mw-5-1-4w-10k-p1338.html?r=1")
@@ -153,7 +153,7 @@
       (net 12 "BUTTON") (pintype "passive") (tstamp f7be4c88-0aeb-4a7a-8f49-9dadcacd75f1))
   )
 
-  (footprint "Custom_Modules:Resistor_Combined_THT3_SMD0805" (layer "F.Cu")
+  (footprint "OpenBikeSensor:Resistor_Combined_THT3_SMD0805" (layer "F.Cu")
     (tedit 0) (tstamp 00000000-0000-0000-0000-00005ed3a110)
     (at 52.324 81.5975 -90)
     (property "Reichelt" "https://www.reichelt.de/widerstand-metallschicht-1-0-mohm-0207-250-mw-0-1-arc-mra0207-1m-b-p237509.html")
@@ -187,7 +187,7 @@
       (net 14 "/V_MEA") (pintype "passive") (tstamp c20d3148-3d70-4b9c-a116-e97121f30f42))
   )
 
-  (footprint "Custom_Modules:Resistor_Combined_THT3_SMD0805" (layer "F.Cu")
+  (footprint "OpenBikeSensor:Resistor_Combined_THT3_SMD0805" (layer "F.Cu")
     (tedit 0) (tstamp 00000000-0000-0000-0000-00005ed3a11e)
     (at 49.276 81.5975 90)
     (property "Reichelt" "2x https://www.reichelt.de/widerstand-metallschicht-1-0-mohm-0207-250-mw-0-1-arc-mra0207-1m-b-p237509.html")
@@ -273,7 +273,7 @@
     )
   )
 
-  (footprint "Custom_Modules:Connector_1x04" (layer "F.Cu")
+  (footprint "OpenBikeSensor:Connector_1x04" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 00000000-0000-0000-0000-00005ed6e833)
     (at 29.5 89.96 180)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
@@ -322,7 +322,7 @@
     )
   )
 
-  (footprint "Custom_Modules:Connector_1x02" (layer "F.Cu")
+  (footprint "OpenBikeSensor:Connector_1x02" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 00000000-0000-0000-0000-00005ed7a183)
     (at 28.702 50.292)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
@@ -368,7 +368,7 @@
     )
   )
 
-  (footprint "Custom_Modules:Connector_1x02" (layer "F.Cu")
+  (footprint "OpenBikeSensor:Connector_1x02" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 00000000-0000-0000-0000-00005ed8734a)
     (at 58.2168 48.9458 -90)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
@@ -414,7 +414,7 @@
     )
   )
 
-  (footprint "Custom_Modules:Connector_1x06" (layer "F.Cu")
+  (footprint "OpenBikeSensor:Connector_1x06" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 00000000-0000-0000-0000-00005ed95cdf)
     (at 34 97.75 180)
     (descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
@@ -473,7 +473,7 @@
     )
   )
 
-  (footprint "Custom_Modules:CP_Radial_D4.0mm_P1.50mm" (layer "F.Cu")
+  (footprint "OpenBikeSensor:CP_Radial_D4.0mm_P1.50mm" (layer "F.Cu")
     (tedit 597BC7C2) (tstamp 00000000-0000-0000-0000-00005ed9b4f9)
     (at 29.464 97.7425 -90)
     (descr "CP, Radial series, Radial, pin pitch=1.50mm, , diameter=4mm, Electrolytic Capacitor")
@@ -537,7 +537,7 @@
     )
   )
 
-  (footprint "Custom_Modules:CP_Radial_D4.0mm_P1.50mm" (layer "F.Cu")
+  (footprint "OpenBikeSensor:CP_Radial_D4.0mm_P1.50mm" (layer "F.Cu")
     (tedit 597BC7C2) (tstamp 00000000-0000-0000-0000-00005ed9be96)
     (at 66.25 100.203)
     (descr "CP, Radial series, Radial, pin pitch=1.50mm, , diameter=4mm, Electrolytic Capacitor")
@@ -601,7 +601,7 @@
     )
   )
 
-  (footprint "Custom_Modules:ESP32_WROOM_30_SMD" (layer "F.Cu")
+  (footprint "OpenBikeSensor:ESP32_WROOM_30_SMD" (layer "F.Cu")
     (tedit 60468179) (tstamp 00000000-0000-0000-0000-00005eda078c)
     (at 51.5 79.5)
     (property "Aliexpress" "https://de.aliexpress.com/item/32889969250.html --- https://de.aliexpress.com/item/32959541446.html --- https://de.aliexpress.com/item/33040503442.html  --- https://de.aliexpress.com/item/4001050278803.html")
@@ -862,7 +862,7 @@
     )
   )
 
-  (footprint "Custom_Modules:Resistor_Combined_THT3_SMD0805" (layer "F.Cu")
+  (footprint "OpenBikeSensor:Resistor_Combined_THT3_SMD0805" (layer "F.Cu")
     (tedit 0) (tstamp 00000000-0000-0000-0000-00005eda2d40)
     (at 51.435 105.664 180)
     (property "Bemerkung" "nur entweder R4/R5 oder R6/R7 bestücken, R7 auf BoardUNTERseite.")
@@ -896,7 +896,7 @@
       (net 17 "+3.3V") (pintype "passive") (tstamp cd626785-7140-4639-a942-e8ea5dcae5e5))
   )
 
-  (footprint "Custom_Modules:Resistor_Combined_THT3_SMD0805" (layer "F.Cu")
+  (footprint "OpenBikeSensor:Resistor_Combined_THT3_SMD0805" (layer "F.Cu")
     (tedit 0) (tstamp 00000000-0000-0000-0000-00005eda2d51)
     (at 51.435 108.712 180)
     (property "Bemerkung" "nur entweder R4/R5 oder R6/R7 bestücken, R7 auf BoardUNTERseite.")
@@ -961,7 +961,7 @@
     )
   )
 
-  (footprint "Custom_Modules:Fuse" (layer "F.Cu")
+  (footprint "OpenBikeSensor:Fuse" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 00000000-0000-0000-0000-00005ee22a87)
     (at 24.13 54.25 90)
     (descr "Resistor, Box series, Radial, pin pitch=5.08mm, 0.5W = 1/2W, length*width=8.38*2.54mm^2, http://www.vishay.com/docs/60051/cns020.pdf")
@@ -1044,7 +1044,7 @@
     )
   )
 
-  (footprint "Custom_Modules:Connector_1x04" (layer "F.Cu")
+  (footprint "OpenBikeSensor:Connector_1x04" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 00000000-0000-0000-0000-00005f30636d)
     (at 79.4 71.5 180)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
@@ -1098,7 +1098,7 @@
     )
   )
 
-  (footprint "Custom_Modules:Connector_1x05_Display" (layer "F.Cu")
+  (footprint "OpenBikeSensor:Connector_1x05_Display" (layer "F.Cu")
     (tedit 5C28146E) (tstamp 00000000-0000-0000-0000-00005f3c6188)
     (at 27.559 107.188)
     (descr "JST XH series connector, B5B-XH-AM, with boss (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
@@ -1234,7 +1234,7 @@
     )
   )
 
-  (footprint "Custom_Modules:Connector_1x04" (layer "F.Cu")
+  (footprint "OpenBikeSensor:Connector_1x04" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 00000000-0000-0000-0000-00005f3ee3e5)
     (at 78.2 82.06)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
@@ -1288,7 +1288,7 @@
     )
   )
 
-  (footprint "Custom_Modules:Connector_1x06" (layer "F.Cu")
+  (footprint "OpenBikeSensor:Connector_1x06" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 00000000-0000-0000-0000-00006073443d)
     (at 87.2 93.22)
     (descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
@@ -2672,7 +2672,7 @@
       ) (layer "F.SilkS") (width 0) (fill solid) (tstamp fb8d2fb3-a1ee-40e0-b1ca-0c54b7d1d206))
   )
 
-  (footprint "Custom_Modules:MT3608_SEPIC_DCDC_SMD" (layer "B.Cu")
+  (footprint "OpenBikeSensor:MT3608_SEPIC_DCDC_SMD" (layer "B.Cu")
     (tedit 5F121BE2) (tstamp 00000000-0000-0000-0000-00005ed95b24)
     (at 69.005 57.34 90)
     (property "Aliexpress" "https://de.aliexpress.com/item/33029072332.html?spm=a2g0s.9042311.0.0.3da24c4dCy9veI")
@@ -2723,7 +2723,7 @@
       (net 5 "GND") (pinfunction "OUT-") (pintype "power_out") (tstamp 2fab43dd-d777-4986-a5fa-9da62b64705c))
   )
 
-  (footprint "Custom_Modules:BATTERY-CHARGER-LI-PROT" (layer "B.Cu")
+  (footprint "OpenBikeSensor:BATTERY-CHARGER-LI-PROT" (layer "B.Cu")
     (tedit 5E235E1A) (tstamp 00000000-0000-0000-0000-00005ee60fe7)
     (at 35.179 64.11)
     (descr "<b>Protected Lithium Battery 5V Charger</b> with micro-USB connector")
