@@ -2213,7 +2213,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Male") (at 212.09 101.6 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005ed6a6b4)
-    (property "Reference" "J3" (id 0) (at 212.09 95.25 0)
+    (property "Reference" "S1" (id 0) (at 212.09 95.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Sensor 1" (id 1) (at 217.17 95.25 0)
@@ -2249,7 +2249,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Male") (at 241.3 101.6 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005ed6b21f)
-    (property "Reference" "J4" (id 0) (at 241.3 95.25 0)
+    (property "Reference" "S2" (id 0) (at 241.3 95.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Sensor 2" (id 1) (at 246.38 95.25 0)
@@ -3172,12 +3172,6 @@
     (path "/e35401f1-f119-4783-a9eb-55f290a0f1a2"
       (reference "J2") (unit 1) (value "On/Off") (footprint "OpenBikeSensor:Connector_1x02")
     )
-    (path "/00000000-0000-0000-0000-00005ed6a6b4"
-      (reference "J3") (unit 1) (value "Sensor 1") (footprint "OpenBikeSensor:Connector_1x04")
-    )
-    (path "/00000000-0000-0000-0000-00005ed6b21f"
-      (reference "J4") (unit 1) (value "Sensor 2") (footprint "OpenBikeSensor:Connector_1x04")
-    )
     (path "/00000000-0000-0000-0000-00005ed82c02"
       (reference "J5") (unit 1) (value "Display Cable") (footprint "OpenBikeSensor:Connector_1x05_Display")
     )
@@ -3213,6 +3207,12 @@
     )
     (path "/00000000-0000-0000-0000-00005eda73a1"
       (reference "R5") (unit 1) (value "1k2") (footprint "OpenBikeSensor:Resistor_Combined_THT3_SMD0805")
+    )
+    (path "/00000000-0000-0000-0000-00005ed6a6b4"
+      (reference "S1") (unit 1) (value "Sensor 1") (footprint "OpenBikeSensor:Connector_1x04")
+    )
+    (path "/00000000-0000-0000-0000-00005ed6b21f"
+      (reference "S2") (unit 1) (value "Sensor 2") (footprint "OpenBikeSensor:Connector_1x04")
     )
   )
 )
