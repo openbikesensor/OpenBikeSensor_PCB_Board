@@ -81,3 +81,14 @@ Nicht unter diese Lizenz fallen:
     - `libs/OpenBikeSensor.pretty/Connector_1x04.kicad_mod`
     - `libs/OpenBikeSensor.pretty/Connector_1x05_Display.kicad_mod`
     - `libs/OpenBikeSensor.pretty/Connector_1x06.kicad_mod`
+
+## Update der Exportdateien
+
+Die Dateien in `generated` können mit
+[KiBot](https://github.com/INTI-CMNB/KiBot) automatisch aktualisiert werden.
+Eine Konfigurationsdatei liegt im jeweiligen Projektverzeichnis vor. Ein
+Ausführen von `kibot` im entsprechenden Unterverzeichnis (z. B. `cd
+OpenBikeSensor`) erstellt alle Exportdateien neu. Bitte checke nur solche
+Dateien in git ein, welche du in deinem Commit auch inhaltlich verändert hast
+(z. B. den PDF Schaltplanexport wenn der Schaltplan verändert wurde, aber nicht
+wenn nur das PCB Änderungen hat).
