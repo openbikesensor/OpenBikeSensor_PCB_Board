@@ -1,9 +1,11 @@
 *-cache.lib
 *.bak
 *.kicad_pcb-bak
+*.kicad_pro-bak
 *.net
 *.sch-bak
 fp-info-cache
 *-backups
 \#auto_saved_files#
 _autosave*
+Gerbers
