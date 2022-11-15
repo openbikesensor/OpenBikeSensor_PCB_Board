@@ -5,6 +5,13 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "OpenBikeSensor")
+    (date "2022-11-15")
+    (rev "1.0.0-alpha.1")
+    (company "OpenBikeSensor Community")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -151,6 +158,11 @@
       (net 12 "BUTTON") (pintype "passive") (tstamp cdd33e77-cf4e-426b-866c-3cc6546e834f))
     (pad "2" thru_hole circle (at -4.7625 0) (size 1.8 1.8) (drill 0.8) (layers *.Cu *.Mask)
       (net 12 "BUTTON") (pintype "passive") (tstamp f7be4c88-0aeb-4a7a-8f49-9dadcacd75f1))
+    (model "Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
+      (offset (xyz -5.08 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "OpenBikeSensor:Resistor_Combined_THT3_SMD0805" (layer "F.Cu")
@@ -185,6 +197,11 @@
       (net 14 "/V_MEA") (pintype "passive") (tstamp 8162000e-dc7e-40fd-806d-79cd16bd1f12))
     (pad "2" smd roundrect (at -1.025 0 270) (size 1.15 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2173913043)
       (net 14 "/V_MEA") (pintype "passive") (tstamp c20d3148-3d70-4b9c-a116-e97121f30f42))
+    (model "Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
+      (offset (xyz -5.08 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "OpenBikeSensor:Resistor_Combined_THT3_SMD0805" (layer "F.Cu")
@@ -219,6 +236,11 @@
       (net 5 "GND") (pintype "passive") (tstamp 4da4d29c-f284-4993-9eeb-9418806203d6))
     (pad "2" thru_hole circle (at -4.7625 0 90) (size 1.8 1.8) (drill 0.8) (layers *.Cu *.Mask)
       (net 5 "GND") (pintype "passive") (tstamp 8c5d96ad-e88b-471a-a5e7-8c65900f479b))
+    (model "Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
+      (offset (xyz -5.08 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" (layer "F.Cu")
@@ -261,12 +283,7 @@
       (net 14 "/V_MEA") (pintype "passive") (tstamp a298acc4-a0d4-4e4b-a730-fe6f1dd54319))
     (pad "2" thru_hole circle locked (at 2.5 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 5 "GND") (pintype "passive") (tstamp e3e177db-387a-4f5e-8bd1-2fa609fddb0e))
-    (model "${KISYS3DMOD}/Capacitors_THT.3dshapes/C_Disc_D3.0mm_W1.6mm_P2.50mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model "${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Disc_D3.0mm_W1.6mm_P2.50mm.wrl"
+    (model "Capacitor_THT.3dshapes/C_Disc_D3.0mm_W1.6mm_P2.50mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -315,10 +332,20 @@
       (net 22 "GPS_RX") (pinfunction "Pin_3") (pintype "passive") (tstamp 11c9f007-8ef4-47db-a9bb-39c372dc0977))
     (pad "4" thru_hole circle (at 0 7.62 180) (size 1.9 1.9) (drill 1) (layers *.Cu *.Mask)
       (net 17 "+3.3V") (pinfunction "Pin_4") (pintype "passive") (tstamp 26095247-78e3-4fe3-b299-eba4459ac35a))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
+    (model "Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Horizontal.step"
+      (offset (xyz 0 -7.62 -1.6))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 0))
+    )
+    (model "${KIPRJMOD}/../libs/OpenBikeSensor.3D/NEO6M_solo.step"
+      (offset (xyz -110 -42 -10.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 90))
     )
   )
 
@@ -361,10 +388,15 @@
       (net 20 "/BAT+") (pinfunction "Pin_1") (pintype "passive") (tstamp 668f2c25-0b7d-43be-8a9c-159d0f15193a))
     (pad "2" thru_hole circle (at 0 2.54) (size 1.9 1.9) (drill 1) (layers *.Cu *.Mask)
       (net 18 "/BAT-") (pinfunction "Pin_2") (pintype "passive") (tstamp cab5e8a8-af1a-4f3e-8d08-8b1ebb287bf9))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+    (model "Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "Connector_Molex.3dshapes/Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -407,10 +439,15 @@
       (net 10 "+VDC") (pinfunction "Pin_1") (pintype "passive") (tstamp 1502c92a-0e14-4b85-9e9f-8a928557761d))
     (pad "2" thru_hole circle (at 0 2.54 270) (size 1.9 1.9) (drill 1) (layers *.Cu *.Mask)
       (net 23 "/PWR+") (pinfunction "Pin_2") (pintype "passive") (tstamp da10f843-8acb-4f60-90c1-b28328212bc0))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+    (model "Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "Connector_JST.3dshapes/JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.step"
+      (offset (xyz -0.2 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -466,10 +503,10 @@
       (net 4 "SD_DAT0") (pinfunction "Pin_5") (pintype "passive") (tstamp fd05b8a7-3e91-427f-9274-214e7f0a5934))
     (pad "6" thru_hole circle (at 0 12.7 180) (size 1.9 1.9) (drill 1) (layers *.Cu *.Mask)
       (net 5 "GND") (pinfunction "Pin_6") (pintype "passive") (tstamp aff0ba1e-8a82-4157-9ed0-eec33ff90fe6))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/../libs/OpenBikeSensor.3D/Product_TF Micro SD Card Memory Modul Arduino_shrink.step"
+      (offset (xyz 2.5 -6.23 44))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 90 0 -90))
     )
   )
 
@@ -525,12 +562,7 @@
       (net 17 "+3.3V") (pintype "passive") (tstamp b9b0b6c5-20dd-410e-857a-58eba6dec35a))
     (pad "2" thru_hole oval (at 1.5 0 270) (size 1.2 1.8) (drill 0.6) (layers *.Cu *.Mask)
       (net 5 "GND") (pintype "passive") (tstamp 59f893ac-6fdc-41b8-88ab-844dc4a8cda7))
-    (model "${KISYS3DMOD}/Capacitors_THT.3dshapes/CP_Radial_D4.0mm_P1.50mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model "${KISYS3DMOD}/Capacitor_THT.3dshapes/CP_Radial_D4.0mm_P1.50mm.wrl"
+    (model "Capacitor_THT.3dshapes/CP_Radial_D4.0mm_P1.50mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -589,12 +621,7 @@
       (net 17 "+3.3V") (pintype "passive") (tstamp 84059854-9c07-47f3-870e-397f7ff0b1f6))
     (pad "2" thru_hole oval (at 1.5 0) (size 1.2 1.8) (drill 0.6) (layers *.Cu *.Mask)
       (net 5 "GND") (pintype "passive") (tstamp 200b61a1-d8e8-4ae8-a569-7dacca17c463))
-    (model "${KISYS3DMOD}/Capacitors_THT.3dshapes/CP_Radial_D4.0mm_P1.50mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model "${KISYS3DMOD}/Capacitor_THT.3dshapes/CP_Radial_D4.0mm_P1.50mm.wrl"
+    (model "Capacitor_THT.3dshapes/CP_Radial_D4.0mm_P1.50mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -845,17 +872,17 @@
         (gr_rect (start -0.6 -0.6096) (end -2.886 0.6096) (width 0.2) (fill yes))
         (gr_rect (start 2.921 -0.6096) (end 0.635 0.6096) (width 0.2) (fill yes))
       ) (tstamp 98fa27f2-dc04-482f-8f86-cbbf1b3fa635))
-    (model "${OPENBIKE}/ESP-WROOM32.STEP"
+    (model "${KIPRJMOD}/../libs/OpenBikeSensor.3D/ESP-WROOM32.STEP"
       (offset (xyz 1.54 -15 13.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 180))
     )
-    (model "${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x15_P2.54mm_Vertical_SMD_Pin1Left.step"
+    (model "Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x15_P2.54mm_Vertical_SMD_Pin1Left.step"
       (offset (xyz 12.8 2 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x15_P2.54mm_Vertical_SMD_Pin1Left.step"
+    (model "Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x15_P2.54mm_Vertical_SMD_Pin1Left.step"
       (offset (xyz -12.8 2 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -894,6 +921,11 @@
       (net 17 "+3.3V") (pintype "passive") (tstamp 0b8c4208-e0ac-45e4-bba6-e565c01542f7))
     (pad "2" thru_hole circle (at -4.7625 0 180) (size 1.8 1.8) (drill 0.8) (layers *.Cu *.Mask)
       (net 17 "+3.3V") (pintype "passive") (tstamp cd626785-7140-4639-a942-e8ea5dcae5e5))
+    (model "Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
+      (offset (xyz -5.08 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "OpenBikeSensor:Resistor_Combined_THT3_SMD0805" (layer "F.Cu")
@@ -928,6 +960,11 @@
       (net 17 "+3.3V") (pintype "passive") (tstamp 3685a798-b84c-4742-927d-65295c7fbb5d))
     (pad "2" smd roundrect (at -1.025 0 180) (size 1.15 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2173913043)
       (net 17 "+3.3V") (pintype "passive") (tstamp 98ed3eeb-c13a-4715-b1c4-41156ce9eaf1))
+    (model "Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
+      (offset (xyz -5.08 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "MountingHole:MountingHole_3.5mm" (layer "F.Cu")
@@ -954,7 +991,7 @@
     (fp_circle (center 0 0) (end 3.5 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp 7b92f77a-7bbb-4b49-bb99-9232815794f2))
     (fp_circle (center 0 0) (end 3.75 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 6f33bafe-65d4-41a7-a000-9df0b2c11523))
     (pad "" np_thru_hole circle locked (at 0 0) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask) (tstamp f83bfe50-7a1b-4106-8ec2-8474d601642f))
-    (model "${OPENBIKE}/hex_socket_button_head_M3x05 (1).step"
+    (model "${KIPRJMOD}/../libs/OpenBikeSensor.3D/hex_socket_button_head_M3x05 (1).step"
       (offset (xyz 0 0 0.1))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -989,7 +1026,7 @@
       (net 19 "/BAT+_FUSED") (pintype "passive") (tstamp 8fa0a6fa-0878-46ba-85cc-8b9bbe89ae77))
     (pad "2" thru_hole circle (at 5.08 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 20 "/BAT+") (pintype "passive") (tstamp aaafdd6b-b10e-4eda-9035-aa6a354b1fb9))
-    (model "${KIPRJMOD}/../libs/obs-ext-3d/7.9mm Resettable PTC Radial.step"
+    (model "${KIPRJMOD}/../libs/OpenBikeSensor.3D/7.9mm Resettable PTC Radial.step"
       (offset (xyz 2.5 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1037,7 +1074,7 @@
       (net 19 "/BAT+_FUSED") (pinfunction "K") (pintype "passive") (tstamp 3626888a-f3ba-4965-8398-942457a1fc69))
     (pad "2" thru_hole oval locked (at 5.08 0) (size 3.2 3.2) (drill 1.6) (layers *.Cu *.Mask)
       (net 18 "/BAT-") (pinfunction "A") (pintype "passive") (tstamp 494560be-ba6d-4c09-ad17-185a48490163))
-    (model "${KISYS3DMOD}/Diode_THT.3dshapes/D_DO-201AD_P5.08mm_Vertical_KathodeUp.wrl"
+    (model "Diode_THT.3dshapes/D_DO-201AD_P5.08mm_Vertical_KathodeUp.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1091,10 +1128,15 @@
       (net 9 "ECHO2") (pinfunction "Pin_3") (pintype "passive") (tstamp 6c4c3e54-c565-4c86-b96a-0fc6c4e2d57b))
     (pad "4" thru_hole circle (at 0 7.62 180) (size 1.9 1.9) (drill 1) (layers *.Cu *.Mask)
       (net 5 "GND") (pinfunction "Pin_4") (pintype "passive") (tstamp a92dfd70-726f-48ec-bfe2-df0221b118e2))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
+    (model "Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/../libs/OpenBikeSensor.3D/JSN20.stp"
+      (offset (xyz -5.4 -24.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 -90))
     )
   )
 
@@ -1165,7 +1207,7 @@
       (net 5 "GND") (pinfunction "Pin_4") (pintype "passive") (tstamp 3e3233be-c7bf-42cb-ba2d-72ebdcb55a44))
     (pad "5" thru_hole oval (at 10 0) (size 1.9 2.4) (drill 0.95) (layers *.Cu *.Mask)
       (net 11 "SDA") (pinfunction "Pin_5") (pintype "passive") (tstamp ba82a843-03e9-4748-a723-b57f1d55c402))
-    (model "${KIPRJMOD}/../libs/obs-ext-3d/JST - XH - Thru - 5Pin - 2.5mm (Genuine).stp"
+    (model "${KIPRJMOD}/../libs/OpenBikeSensor.3D/JST - XH - Thru - 5Pin - 2.5mm (Genuine).stp"
       (offset (xyz 5 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1196,7 +1238,7 @@
     (fp_circle (center 0 0) (end 3.5 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp 11086519-e07e-4713-b7e9-ee2fe16d284a))
     (fp_circle (center 0 0) (end 3.75 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 1e8f70b0-6264-440a-9aa7-d20f2f0bc307))
     (pad "" np_thru_hole circle locked (at 0 0) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask) (tstamp 6e8d12a1-91e2-4288-8296-df68731ab6e2))
-    (model "${OPENBIKE}/hex_socket_button_head_M3x05 (1).step"
+    (model "${KIPRJMOD}/../libs/OpenBikeSensor.3D/hex_socket_button_head_M3x05 (1).step"
       (offset (xyz 0 0 0.1))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1281,10 +1323,15 @@
       (net 6 "ECHO1") (pinfunction "Pin_3") (pintype "passive") (tstamp 35ca5a0a-71f5-4e5f-b4c0-557cbdda2f1a))
     (pad "4" thru_hole circle (at 0 7.62) (size 1.9 1.9) (drill 1) (layers *.Cu *.Mask)
       (net 5 "GND") (pinfunction "Pin_4") (pintype "passive") (tstamp 9dff8dc3-1ada-42d7-874d-6df22842d3fa))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
+    (model "Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/../libs/OpenBikeSensor.3D/JSN20.stp"
+      (offset (xyz -5.4 -24.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 -90))
     )
   )
 
@@ -1334,7 +1381,7 @@
       (net 16 "RX") (pinfunction "Pin_5") (pintype "passive") (tstamp 447764a3-3939-4425-8f8a-4bcadb9fe3b5))
     (pad "6" thru_hole circle (at 0 12.7) (size 1.9 1.9) (drill 1) (layers *.Cu *.Mask)
       (net 15 "TX") (pinfunction "Pin_6") (pintype "passive") (tstamp 40017cc2-8f28-4451-9a2d-4195225ff85f))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl"
+    (model "Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2789,7 +2836,7 @@
       (net 23 "/PWR+") (pinfunction "OUT+") (pintype "power_out") (tstamp a878ff33-fc12-4c8d-a0ca-a8e1bb53e359))
     (pad "OUT-" thru_hole rect (at 10.795 -6.985) (size 2.5 2.5) (drill 1.2) (layers *.Cu *.Mask)
       (net 5 "GND") (pinfunction "OUT-") (pintype "power_out") (tstamp 81994b29-ad9f-44a2-8a94-8e8b6a4e2bfb))
-    (model "${KIPRJMOD}/../libs/obs-ext-3d/tp4056 micro usb 18650 charger v3.step"
+    (model "${KIPRJMOD}/../libs/OpenBikeSensor.3D/tp4056 micro usb 18650 charger v3.step"
       (offset (xyz -0.5 -0.3 -10.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -4177,11 +4224,11 @@
   (gr_text "Li-Po charger\nand protection" (at 35.052 64.135) (layer "B.SilkS") (tstamp 560908b1-faab-4a4e-a2c0-493d1c3bfb37)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "OpenBikeSensor\nRev 0.3.13" (at 86.741 48.514 -90) (layer "B.SilkS") (tstamp 6843e991-aa2b-4044-80b2-66ffa377a82d)
-    (effects (font (size 1 1) (thickness 0.15)) (justify right mirror))
-  )
   (gr_text "SCL" (at 85.344 98.298) (layer "B.SilkS") (tstamp 769b5487-4974-43c9-8392-a9a4d6b94070)
     (effects (font (size 0.8 0.8) (thickness 0.12)) (justify left mirror))
+  )
+  (gr_text "OpenBikeSensor\nRev ${REVISION}" (at 86.995 48.514 -90) (layer "B.SilkS") (tstamp ae330054-18de-4f0e-a1c5-5186113466ce)
+    (effects (font (size 0.8 0.8) (thickness 0.12)) (justify right mirror))
   )
   (gr_text "GND" (at 85.344 95.758) (layer "B.SilkS") (tstamp e62679e7-1051-4c40-813a-9658f6cbc8d4)
     (effects (font (size 0.8 0.8) (thickness 0.12)) (justify left mirror))
@@ -4204,8 +4251,8 @@
   (gr_text "GND" (at 77.724 63.881) (layer "F.SilkS") (tstamp 192b07a4-b5ed-43db-a1fb-43566197d3f9)
     (effects (font (size 0.8 0.8) (thickness 0.12)) (justify right))
   )
-  (gr_text "OpenBikeSensor\nRev 0.3.13" (at 86.868 48.514 90) (layer "F.SilkS") (tstamp 2390ecd9-cafa-41c0-8773-b7714772d095)
-    (effects (font (size 1 1) (thickness 0.15)) (justify right))
+  (gr_text "OpenBikeSensor\nRev ${REVISION}" (at 86.868 48.514 90) (layer "F.SilkS") (tstamp 2390ecd9-cafa-41c0-8773-b7714772d095)
+    (effects (font (size 0.8 0.8) (thickness 0.12)) (justify right))
   )
   (gr_text "ECHO" (at 77.724 66.308) (layer "F.SilkS") (tstamp 23e1efa6-2989-4df1-a3d5-01ce2716b0a0)
     (effects (font (size 0.8 0.8) (thickness 0.12)) (justify right))
@@ -4305,15 +4352,6 @@
   )
   (gr_text "-" (at 28.702 52.832) (layer "F.Fab") (tstamp dd2b4016-6245-4179-80f3-6f159d35c31e)
     (effects (font (size 1.3 1.3) (thickness 0.325)))
-  )
-  (dimension (type aligned) (layer "Dwgs.User") (tstamp a301bd9c-c3ca-43b0-a263-62b8143e66cc)
-    (pts (xy 89.368 111.633) (xy 89.368 46.99))
-    (height 31.711506)
-    (gr_text "64.6430 mm" (at 119.929506 79.3115 90) (layer "Dwgs.User") (tstamp a301bd9c-c3ca-43b0-a263-62b8143e66cc)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (format (units 2) (units_format 1) (precision 4))
-    (style (thickness 0.15) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0) keep_text_aligned)
   )
   (dimension (type aligned) (layer "Dwgs.User") (tstamp f7665fb3-298e-4670-b9de-9de975b6dd3b)
     (pts (xy 89.368 46.99) (xy 21.209 46.99))

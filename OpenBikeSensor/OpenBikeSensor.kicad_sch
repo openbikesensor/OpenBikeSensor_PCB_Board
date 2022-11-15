@@ -7,7 +7,7 @@
   (title_block
     (title "OpenBikeSensor")
     (date "2022-11-03")
-    (rev "0.3.13")
+    (rev "1.0.0-alpha.1")
     (company "OpenBikeSensor Community")
   )
 
