@@ -55,7 +55,7 @@ Finish (HASL) in 1.6mm Stärke (FR-4) und 1oz Kupferstärke. Bessere Optionen (z
 B. ENIG) sind möglich, aber nicht nötig. Die Einstellungen können nach Belieben
 angepasst werden, insbesondere ästhetische Aspekte wie die Farbe der Boards.
 
-Einige Hersteller (z. B. Aisler) können die KiCaD-Dateien direkt importieren,
+Einige Hersteller (z. B. Aisler) können die KiCad-Dateien direkt importieren,
 hier muss nur die `.kicad_pcb` Datei ausgewählt werden, diese enthält alle
 Informationen des Designs.
 
@@ -63,3 +63,21 @@ Bei manchen Herstellern (z. B. JLCPCB) wird die Bestellnummer auf jedes Board
 aufgedruckt, für einen kleinen Mehrbetrag kann dies vermieden werden. Gerade
 bei größeren Bestellungen fällt diese Gebühr kaum ins Gewicht und ist sehr zu
 empfehlen.
+
+## Lizenz
+
+Die eigenen Inhalte dieses Repositories sind lizensiert unter den Bedingungen
+der GNU Lesser General Public License. Eine Kopie der Lizenz befindet sich in der
+Datei `LICENSE` in diesem Verzeichnis.
+
+Nicht unter diese Lizenz fallen:
+
+* Die folgenden Dateien, welche leichte Modifikationen von Standard-Footprints
+  der KiCad-Bibliothek sind und somit unter der entsprechende Lizenz
+  ([CC-BY-SA 4.0 mit Modifikationen](https://www.kicad.org/libraries/license/))
+  stehen:
+    - `libs/OpenBikeSensor.pretty/CP_Radial_D4.0mm_P1.50mm.kicad_mod`
+    - `libs/OpenBikeSensor.pretty/Connector_1x02.kicad_mod`
+    - `libs/OpenBikeSensor.pretty/Connector_1x04.kicad_mod`
+    - `libs/OpenBikeSensor.pretty/Connector_1x05_Display.kicad_mod`
+    - `libs/OpenBikeSensor.pretty/Connector_1x06.kicad_mod`
