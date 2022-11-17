@@ -45,14 +45,9 @@
   (fp_line (start -1.25 -0.45) (end -1.25 0.45) (layer "F.Fab") (width 0.1) (tstamp 049d782f-7fb3-487b-abb8-d355e71d44c5))
   (fp_line (start -1.7 0) (end -0.8 0) (layer "F.Fab") (width 0.1) (tstamp 69716c5f-760f-48c3-821f-118072062079))
   (fp_circle (center 0.75 0) (end 2.75 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 5960ea3e-aecc-4d30-9924-cc5b1cb0cff2))
-  (pad "1" thru_hole oval (at 0 0) (size 1 1.8) (drill 0.6) (layers *.Cu *.Mask) (tstamp 99a8c8eb-4ebe-4c32-bd9b-5ccd968dabae))
-  (pad "2" thru_hole oval (at 1.5 0) (size 1 1.8) (drill 0.6) (layers *.Cu *.Mask) (tstamp be245ecf-ada5-41bb-b537-e59f70d6e37b))
-  (model "${KISYS3DMOD}/Capacitors_THT.3dshapes/CP_Radial_D4.0mm_P1.50mm.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "${KISYS3DMOD}/Capacitor_THT.3dshapes/CP_Radial_D4.0mm_P1.50mm.wrl"
+  (pad "1" thru_hole oval (at 0 0) (size 1.1 1.8) (drill 0.8) (layers *.Cu *.Mask) (tstamp 99a8c8eb-4ebe-4c32-bd9b-5ccd968dabae))
+  (pad "2" thru_hole oval (at 1.5 0) (size 1.1 1.8) (drill 0.8) (layers *.Cu *.Mask) (tstamp be245ecf-ada5-41bb-b537-e59f70d6e37b))
+  (model "Capacitor_THT.3dshapes/CP_Radial_D4.0mm_P1.50mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
