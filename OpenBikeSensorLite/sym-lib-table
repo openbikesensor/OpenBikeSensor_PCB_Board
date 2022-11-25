@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "OpenBikeSensor")(type "KiCad")(uri "${KIPRJMOD}/../libs/OpenBikeSensor.kicad_sym")(options "")(descr ""))
+)
