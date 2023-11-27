@@ -1,7 +1,7 @@
 # OpenBikeSensor_pcb
 ## Versionen
 
-Aktuelle Version ist das "OpenBikeSensor_pcb_flippedPower_b.pro".
+Aktuell Released ist die Version aus OpenBikeSensor03. drüben im branch [wip-simplify](https://github.com/openbikesensor/OpenBikeSensor_PCB_Board/tree/wip-simplify) arbeiten wir an der Version 1.0. Sie wurde schon erfolgreich gebaut, aber die Anleitung ist noch nicht komplett dafür angepasst. Außerdem gibt es Arbeiten am OBS-Lite im Branch [obs-lite](https://github.com/openbikesensor/OpenBikeSensor_PCB_Board/tree/obs-lite)
 
 Aktueller Branch: "Mit_Verpolschutz"
 
