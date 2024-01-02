@@ -14,12 +14,11 @@ Dies ist der Standard-OpenBikeSensor als eigenständiges Gerät, hergestellt aus
 vielen fertig verfügbaren Modulen (ESP32 Devkit, GPS, SD-Karten-Modul,
 Ultraschallsensor-Module, ...).
 
-Die aktuelle Versionsnummer des OpenBikeSensor PCB ist `1.0.0-alpha.1`.
+Die aktuelle Versionsnummer des OpenBikeSensor PCB ist `1.0.0`.
 
-* [Gerber Download (Generic)](./OpenBikeSensor/generated/Manufacturers/Generic/OpenBikeSensor-gerber_modern_zip.zip)
-* [Gerber Download (JLCPCB)](./OpenBikeSensor/generated/Manufacturers/JLCPCB/OpenBikeSensor-JLCPCB.zip)
-* [Schaltplan, PDF](./OpenBikeSensor/generated/OpenBikeSensor-schematic.pdf)
-* [Bestückungsplan, HTML](./OpenBikeSensor/generated/OpenBikeSensor-ibom.html)
+* [Gerber](OpenBikeSensor1.0.0-Gerber.zip)
+* [Schaltplan, PDF](./OpenBikeSensor/generated/OpenBikeSensor-1.0.0-schematic.pdf)
+* [Bestückungsplan, HTML](./OpenBikeSensor/generated/OpenBikeSensor-1.0.0-ibom.html)
 
 ### OpenBikeSensor Lite
 
