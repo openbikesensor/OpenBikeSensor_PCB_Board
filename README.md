@@ -39,6 +39,7 @@ geringerer Eigenaufwand zur Fertigstellung ohne Löten elektronischer Module
 nötig. Dieses Projekt is zur Zeit in der Entwicklung und hoffentlich im Laufe
 des Jahres 2023 benutzbar.
 
+
 ## Bestellung bei Platinenherstellern
 
 Ein Export der Projektdateien als "Gerber-Files" liegt im jeweiligen
