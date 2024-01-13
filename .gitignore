@@ -1,13 +1,12 @@
-<<<<<<< HEAD
-fp-info-cache
-*.bak
 *-cache.lib
-*.sch-bak
-=======
-*-cache.lib
-*.sch-bak
 *.bak
-fp-info-cache
 *.kicad_pcb-bak
+*.kicad_pro-bak
+*.kicad_sch-bak
 *.net
->>>>>>> JSN-SR04T-cleanup
+*.sch-bak
+fp-info-cache
+*-backups
+\#auto_saved_files#
+_autosave*
+Gerbers
